@@ -1,0 +1,180 @@
+<configs>
+  <config name="biomes">
+    <append xpath="/worldgeneration/biomes">
+      <!-- WATER (blue) (todo) -->
+      <biome name="water" biomemapcolor="#0063ff">
+        <weather>
+          <Temperature min="0" max="10" prob="1"/>
+          <CloudThickness min="5" max="50" prob="1"/>
+          <Fog min="0" max="0" prob=".9"/>
+          <Fog min="100" max="100" prob=".1"/>
+          <CloudThickness min="0" max="0" prob=".3"/>
+          <CloudThickness min="10" max="70" prob=".6"/>
+          <CloudThickness min="100" max="100" prob=".1"/>
+          <Precipitation min="0" max="0" prob=".0"/>
+          <Precipitation min="50" max="100" prob=".75"/>
+          <Wind min="10" max="20" prob="0.9"/>
+          <Wind min="20" max="100" prob="0.1"/>
+        </weather>
+        <subbiome prob="0.05">
+          <layers>
+            <layer depth="2" blockname="clay" >
+              <resource blockname="gravelPlusIron" cluster="1" prob="0.071" rwgGenerationType="all" />
+            </layer>
+            <layer depth="4" blockname="dirt" >
+              <resource blockname="gravelPlusIron" cluster="1" prob="0.811" rwgGenerationType="all" />
+            </layer>
+            <layer depth="*" blockname="stone" >
+              <resource blockname="ironOre" cluster="1" prob="0.1130" rwgGenerationType="all" />
+              <resource blockname="gravelPlusIron" cluster="1" prob="0.8130" rwgGenerationType="all" />
+              <resource blockname="silverOre" cluster="1" prob="0.00030" rwgGenerationType="all" />
+              <resource blockname="goldOre" cluster="1" prob="0.00020" rwgGenerationType="all" />
+              <resource blockname="diamondOre" cluster="1" prob="0.00010" rwgGenerationType="all" />
+            </layer>
+            <layer depth="1" blockname="stone" >
+              <resource blockname="gravel" cluster="1" prob="0.1130" rwgGenerationType="all" />
+            </layer>
+            <layer depth="3" blockname="bedrock" />
+          </layers>
+          <decorations>
+            <decoration type="block" blockname="rock01" prob=".01" />
+            <decoration type="block" blockname="rock02" prob=".01" />
+            <decoration type="block" blockname="rock04" prob=".01" />
+            <decoration type="block" blockname="rockResource" prob=".025" rotatemax="3"/>
+            <decoration type="block" blockname="rockResource02" prob=".025" rotatemax="3"/>
+            <decoration type="block" blockname="driftwood" prob="0.001" rotatemax="3"/>
+            <decoration type="block" blockname="driftwood2" prob="0.001" rotatemax="3"/>
+            <decoration type="block" blockname="treeTallGrassDiagonal" prob=".5" />
+          </decorations>
+        </subbiome>
+        <subbiome prob="0.05">
+          <layers>
+            <layer depth="1" blockname="dirt" >
+              <resource blockname="gravelPlusIron" cluster="1" prob="0.071" rwgGenerationType="all" />
+            </layer>
+            <layer depth="5" blockname="dirt" >
+              <resource blockname="gravelPlusIron" cluster="1" prob="0.811" rwgGenerationType="all" />
+            </layer>
+            <layer depth="*" blockname="stone" >
+              <resource blockname="ironOre" cluster="1" prob="0.1130" rwgGenerationType="all" />
+              <resource blockname="gravelPlusIron" cluster="1" prob="0.8130" rwgGenerationType="all" />
+              <resource blockname="silverOre" cluster="1" prob="0.00030" rwgGenerationType="all" />
+              <resource blockname="goldOre" cluster="1" prob="0.00020" rwgGenerationType="all" />
+              <resource blockname="diamondOre" cluster="1" prob="0.00010" rwgGenerationType="all" />
+            </layer>
+            <layer depth="1" blockname="stone" >
+              <resource blockname="gravel" cluster="1" prob="0.1130" rwgGenerationType="all" />
+            </layer>
+            <layer depth="3" blockname="bedrock" />
+          </layers>
+          <decorations>
+            <decoration type="block" blockname="rock01" prob=".01" />
+            <decoration type="block" blockname="rock02" prob=".01" />
+            <decoration type="block" blockname="rock04" prob=".01" />
+            <decoration type="block" blockname="rockResource" prob=".025" rotatemax="3"/>
+            <decoration type="block" blockname="rockResource02" prob=".025" rotatemax="3"/>
+          </decorations>
+        </subbiome>
+        <terrain class="Water">
+          <property name="BaseHeight" value="12" />
+        </terrain>
+        <subbiome prob="0.1551">
+          <layers>
+            <layer depth="6" blockname="sand" >
+              <resource blockname="clay" prob="0.15" rwgGenerationType="all" />
+              <resource blockname="gravelPlusLead" cluster="1" prob="0.071" rwgGenerationType="all" />
+            </layer>
+            <layer depth="1" blockname="stone" >
+              <resource blockname="gravelPlusLead" cluster="1" prob="0.8130" rwgGenerationType="all" />
+            </layer>
+            <layer depth="*" blockname="stone" >
+              <resource blockname="leadOre" cluster="1" prob="0.1030" rwgGenerationType="all" />
+              <resource blockname="gravelPlusLead" cluster="1" prob="0.8130" rwgGenerationType="all" />
+            </layer>
+            <layer depth="1" blockname="stone" >
+              <resource blockname="gravel" cluster="1" prob="0.8130" rwgGenerationType="all" />
+            </layer>
+            <layer depth="3" blockname="bedrock" />
+          </layers>
+        </subbiome>
+        <subbiome prob="0.1551">
+          <layers>
+            <layer depth="6" blockname="sand" >
+              <resource blockname="clay" prob="0.15" rwgGenerationType="all" />
+              <resource blockname="gravelPlusCoal" cluster="1" prob="0.071" rwgGenerationType="all" />
+            </layer>
+            <layer depth="1" blockname="stone" >
+              <resource blockname="gravelPlusCoal" cluster="1" prob="0.8130" rwgGenerationType="all" />
+            </layer>
+            <layer depth="*" blockname="stone" >
+              <resource blockname="coalOre" cluster="1" prob="0.1030" rwgGenerationType="all" />
+              <resource blockname="gravelPlusCoal" cluster="1" prob="0.8130" rwgGenerationType="all" />
+            </layer>
+            <layer depth="1" blockname="stone" >
+              <resource blockname="gravel" cluster="1" prob="0.8130" rwgGenerationType="all" />
+            </layer>
+            <layer depth="3" blockname="bedrock" />
+          </layers>
+        </subbiome>
+        <subbiome prob="0.1551">
+          <layers>
+            <layer depth="6" blockname="sand" >
+              <resource blockname="clay" prob="0.15" rwgGenerationType="all" />
+              <resource blockname="gravelPlusPotassium" cluster="1" prob="0.071" rwgGenerationType="all" />
+            </layer>
+            <layer depth="1" blockname="stone" >
+              <resource blockname="gravelPlusPotassium" cluster="1" prob="0.8130" rwgGenerationType="all" />
+            </layer>
+            <layer depth="*" blockname="stone" >
+              <resource blockname="potassiumNitrate" cluster="1" prob="0.1030" rwgGenerationType="all" />
+              <resource blockname="gravelPlusPotassium" cluster="1" prob="0.8130" rwgGenerationType="all" />
+            </layer>
+            <layer depth="1" blockname="stone" >
+              <resource blockname="gravel" cluster="1" prob="0.8130" rwgGenerationType="all" />
+            </layer>
+            <layer depth="3" blockname="bedrock" />
+          </layers>
+        </subbiome>
+        <layers>
+          <layer filluptorg="58" blockname="water" />
+          <layer depth="1" blockname="sand" >
+            <resource blockname="clay" prob="0.15" rwgGenerationType="all" />
+            <resource blockname="gravelPlusIron" cluster="1" prob="0.071" rwgGenerationType="all" />
+          </layer>
+          <layer depth="5" blockname="sand" >
+            <resource blockname="clay" prob="0.15" rwgGenerationType="all" />
+            <resource blockname="gravelPlusIron" cluster="1" prob="0.811" rwgGenerationType="all" />
+          </layer>
+          <layer depth="*" blockname="stone" >
+            <resource blockname="ironOre" cluster="1" prob="0.1130" rwgGenerationType="all" />
+            <resource blockname="gravelPlusIron" cluster="1" prob="0.8130" rwgGenerationType="all" />
+            <resource blockname="silverOre" cluster="1" prob="0.00030" rwgGenerationType="all" />
+            <resource blockname="goldOre" cluster="1" prob="0.00020" rwgGenerationType="all" />
+            <resource blockname="diamondOre" cluster="1" prob="0.00010" rwgGenerationType="all" />
+          </layer>
+          <layer depth="1" blockname="stone" >
+            <resource blockname="gravel" cluster="1" prob="0.1130" rwgGenerationType="all" />
+          </layer>
+          <layer depth="3" blockname="bedrock" />
+        </layers>
+        <spectrum name="pine_forest" />
+        <decorations>
+          <decoration type="block" blockname="treeAzalea" prob=".003" rotatemax="3"/>
+          <decoration type="block" blockname="rock01" prob=".001" rotatemax="3"/>
+          <decoration type="block" blockname="rock02" prob=".005" rotatemax="3"/>
+          <decoration type="block" blockname="rock04" prob=".001" rotatemax="3"/>
+          <decoration type="block" blockname="rockResource" prob=".0005" rotatemax="3"/>
+          <decoration type="block" blockname="rockResource02" prob=".0005" rotatemax="3"/>
+          <decoration type="block" blockname="driftwood" prob="0.001" rotatemax="3"/>
+          <decoration type="block" blockname="driftwood2" prob="0.001" rotatemax="3"/>
+          <decoration type="block" blockname="treeMountainPineDry" prob="0.005" rotatemax="7"/>
+          <decoration type="block" blockname="treeDeadShrub" prob="0.005" rotatemax="7"/>
+          <decoration type="block" blockname="treeDeadTree02" prob="0.005" rotatemax="7"/>
+          <decoration type="block" blockname="treeDeadPineLeaf" prob="0.01" rotatemax="7"/>
+          <decoration type="block" blockname="treeBrownGrassDiagonal" prob=".15" />
+          <decoration type="block" blockname="treeTallGrassDiagonal" prob=".35" />
+        </decorations>
+      </biome>
+    </append>
+  </config>
+</configs>

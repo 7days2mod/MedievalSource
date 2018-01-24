@@ -1,0 +1,117 @@
+<configs>
+  <config name="biomes">
+    <append xpath="/*">
+      <weather>
+        <!-- global temp baseline 85f -->
+        <property class="Foggy">
+          <property name="Spectrum" value="foggy" />
+          <property name="Temperature" value="-5" />
+          <property name="AmbientSound" value="..." />
+          <property name="ParticleEffect" value="..." />
+        </property>
+        <property class="Rainy">
+          <property name="Spectrum" value="rainy" />
+          <property name="Temperature" value="-10" />
+          <property name="AmbientSound" value="..." />
+          <property name="ParticleEffect" value="..." />
+        </property>
+      </weather>
+      <biomes>
+        <!-- SNOW -->
+        <biomemap id="01" name="snow"/>
+        <!-- FOREST -->
+        <biomemap id="02" name="forest"/>
+        <!-- ORC / TROLL LANDS -->
+        <biomemap id="03" name="pine_forest"/>
+        <!-- GRASSLANDS -->
+        <biomemap id="04" name="plains"/>
+        <!-- SPOOKY FOREST -->
+        <biomemap id="05" name="desert"/>
+        <!-- WATER -->
+        <biomemap id="06" name="water"/>
+        <!-- CURSED LANDS -->
+        <biomemap id="07" name="radiated"/>
+        <!-- BLIGHTED LANDS -->
+        <biomemap id="08" name="wasteland"/>
+        <!-- SWAMPLANDS -->
+        <biomemap id="09" name="burnt_forest"/>
+        <!-- SCORCHED EARTH -->
+        <biomemap id="10" name="city"/>
+        <!-- CRYSTAL FOREST -->
+        <biomemap id="11" name="city_wasteland"/>
+        <!-- BLASTED LANDS -->
+        <biomemap id="12" name="wasteland_hub"/>
+        <biomemap id="13" name="caveFloor"/>
+        <biomemap id="14" name="caveCeiling"/>
+      </biomes>
+      <pois>
+        <poi name="City Asphalt " poimapcolor="#3d3f47" blockname="gravel">
+          <decal texture="0" face="0" prob="0"/>
+          <decal texture="1" face="0" prob="0.001"/>
+          <decal texture="2" face="0" prob="0"/>
+          <decal texture="3" face="0" prob="0"/>
+          <decal texture="4" face="0" prob="0.001"/>
+          <decal texture="5" face="0" prob="0"/>
+          <decal texture="6" face="0" prob="0"/>
+          <decal texture="7" face="0" prob="0.001"/>
+          <decal texture="8" face="0" prob="0.001"/>
+          <decal texture="9" face="0" prob="0"/>
+          <decal texture="10" face="0" prob="0"/>
+          <decal texture="11" face="0" prob="0"/>
+          <decal texture="12" face="0" prob="0"/>
+          <decal texture="13" face="0" prob="0"/>
+          <decal texture="14" face="0" prob="0"/>
+          <decal texture="15" face="0" prob="0"/>
+          <blockontop blockname="animalGore" prob="0.0005" rotatemax="7"/>
+          <blockontop blockname="GoreBlock1Prefab" prob="0.0005" rotatemax="7"/>
+        </poi>
+        <poi name="Country Road Asphalt" poimapcolor="#272f48" blockname="gravel">
+          <decal texture="0" face="0" prob="0"/>
+          <decal texture="1" face="0" prob="0.005"/>
+          <decal texture="2" face="0" prob="0"/>
+          <decal texture="3" face="0" prob="0"/>
+          <decal texture="4" face="0" prob="0.005"/>
+          <decal texture="5" face="0" prob="0"/>
+          <decal texture="6" face="0" prob="0"/>
+          <decal texture="7" face="0" prob="0.005"/>
+          <decal texture="8" face="0" prob="0.005"/>
+          <decal texture="9" face="0" prob="0"/>
+          <decal texture="10" face="0" prob="0"/>
+          <decal texture="11" face="0" prob="0"/>
+          <decal texture="12" face="0" prob="0"/>
+          <decal texture="13" face="0" prob="0"/>
+          <decal texture="14" face="0" prob="0"/>
+          <decal texture="15" face="0" prob="0"/>
+          <blockontop blockname="animalGore" prob="0.001" rotatemax="7"/>
+          <blockontop blockname="GoreBlock1Prefab" prob="0.001" rotatemax="7"/>
+        </poi>
+        <poi name="Road Gravel" poimapcolor="#806f52" blockname="dirt">
+          <decal texture="0" face="0" prob="0"/>
+          <decal texture="1" face="0" prob="0.005"/>
+          <decal texture="2" face="0" prob="0"/>
+          <decal texture="3" face="0" prob="0"/>
+          <decal texture="4" face="0" prob="0.005"/>
+          <decal texture="5" face="0" prob="0"/>
+          <decal texture="6" face="0" prob="0"/>
+          <decal texture="7" face="0" prob="0.005"/>
+          <decal texture="8" face="0" prob="0.005"/>
+          <decal texture="9" face="0" prob="0"/>
+          <decal texture="10" face="0" prob="0"/>
+          <decal texture="11" face="0" prob="0"/>
+          <decal texture="12" face="0" prob="0"/>
+          <decal texture="13" face="0" prob="0"/>
+          <decal texture="14" face="0" prob="0"/>
+          <decal texture="15" face="0" prob="0"/>
+          <blockontop blockname="animalGore" prob="0.001" rotatemax="7"/>
+          <blockontop blockname="GoreBlock1Prefab" prob="0.001" rotatemax="7"/>
+        </poi>
+        <poi name="Water" poimapcolor="#0063ff" blockname="water" blockbelow="sand" yposfill="58"/>
+        <poi name="WaterDesert" poimapcolor="#002868" blockname="water" blockbelow="sand" yposfill="44"/>
+        <poi name="WaterHills" poimapcolor="#5d9bfd" blockname="water" blockbelow="sand" yposfill="73"/>
+        <poi name="WaterMountains" poimapcolor="#a3c7fe" blockname="water" blockbelow="sand" yposfill="78"/>
+        <poi name="Sand" poimapcolor="#c6b9a2" blockname="sand"/>
+        <poi name="Empty" poimapcolor="#f6ff00"/>
+      </pois>
+    </append>
+  </config>
+</configs>

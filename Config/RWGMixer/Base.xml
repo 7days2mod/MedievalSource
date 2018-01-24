@@ -1,0 +1,449 @@
+<configs>
+  <config name="rwgmixer">
+    <append xpath="/*">
+      <world ruleset="medieval" />
+      <rulesets>
+        <ruleset name="medieval" cell_cache_size="8" cell_size="1350" cell_offset="0" generation_distance="3000" terrain_generator="vanilla" biome_generator="vanilla">
+          <!-- Has human villages -->
+          <cell_rule name="human" prob="1"/>
+          <!-- Has enemy occupied villages -->
+          <cell_rule name="badlands" prob="0.3"/>
+        </ruleset>
+      </rulesets>
+      <cell_rules>
+        <cell_rule name="human">
+          <cave_count value="10,16"/>
+          <path_material value="dirt" />
+          <path_radius value="10" />
+          <hub_rule name="rural" prob="0.2"/>
+          <hub_rule name="villageSmall" prob="0.4"/>
+          <hub_rule name="villageLarge" prob="0.4"/>
+          <hub_rule name="townSmall" prob="0.3"/>
+          <hub_rule name="townLarge" prob="0.1"/>
+          <wilderness_rule name="wildernessHumans"/>
+        </cell_rule>
+        <cell_rule name="badlands">
+          <cave_count value="10,16"/>
+          <path_material value="dirt" />
+          <path_radius value="10" />
+          <hub_rule name="encampmentSmall" prob="0.4"/>
+          <hub_rule name="encampmentLarge" prob="0.4"/>
+          <hub_rule name="fortressSmall" prob="0.3"/>
+          <hub_rule name="fortressLarge" prob="0.1"/>
+          <wilderness_rule name="wildernessBadlands"/>
+        </cell_rule>
+      </cell_rules>
+      <hub_rules>
+        <hub_rule name="rural">
+          <hub_type value="rural"/>
+          <width value="168, 250" />
+          <height value="168, 250" />
+          <path_material value="dirt" />
+          <path_radius value="10" />
+          <prefab_rule name="humansVillage"/>
+          <street_gen level="10" length_multiplier="4">
+            <axiom value="[FFCT][-FFT][+FFI][--FFN][+FFT][-FFI][++FN][F-FF+FF[-T]FF+FF+FFFF-FF-FF[+I]FF-F[+N]"/>
+            <rule char="T" replace_with="F-FF+FF[-T**]FF+FF+FFFF-FF-FF[+I**]FF-F[+N*K]"/>
+            <rule char="I" replace_with="F-FF+FF[-T**]FF+FF+FFFF-FF-FF[+I**]FF-F[+N*K]"/>
+            <rule char="N" replace_with="F-FF+FF[-T**]FF+FF+FFFF-FF-FF[+I**]FF-F[+N*K]"/>
+            <rule char="K" replace_with="[FFCT][-FFT][+FFI][--FFN][+FFT][-FFI][++FN]"/>
+            <alt_commands chars="T,I,N,K"/>
+          </street_gen>
+        </hub_rule>
+        <hub_rule name="villageSmall">
+          <hub_type value="town"/>
+          <width value="250, 300" />
+          <height value="250, 300" />
+          <path_material value="dirt" />
+          <path_radius value="10" />
+          <prefab_rule name="humansVillage"/>
+          <street_gen level="15" length_multiplier="4">
+            <axiom value="[FFCT][-FFT][+FFI][--FFN][+FFT][-FFI][++FN][F-FF+FF[-T]FF+FF+FFFF-FF-FF[+I]FF-F[+N]"/>
+            <rule char="T" replace_with="F-FF+FF[-T**]FF+FF+FFFF-FF-FF[+I**]FF-F[+N*K]"/>
+            <rule char="I" replace_with="F-FF+FF[-T**]FF+FF+FFFF-FF-FF[+I**]FF-F[+N*K]"/>
+            <rule char="N" replace_with="F-FF+FF[-T**]FF+FF+FFFF-FF-FF[+I**]FF-F[+N*K]"/>
+            <rule char="K" replace_with="[FFCT][-FFT][+FFI][--FFN][+FFT][-FFI][++FN]"/>
+            <alt_commands chars="T,I,N,K"/>
+          </street_gen>
+        </hub_rule>
+        <hub_rule name="villageLarge">
+          <hub_type value="town"/>
+          <width value="250, 300" />
+          <height value="250, 300" />
+          <path_material value="dirt" />
+          <path_radius value="10" />
+          <prefab_rule name="humansVillage"/>
+          <street_gen level="15" length_multiplier="4">
+            <axiom value="[FFCT][-FFT][+FFI][--FFN][+FFT][-FFI][++FN][F-FF+FF[-T]FF+FF+FFFF-FF-FF[+I]FF-F[+N]"/>
+            <rule char="T" replace_with="F-FF+FF[-T**]FF+FF+FFFF-FF-FF[+I**]FF-F[+N*K]"/>
+            <rule char="I" replace_with="F-FF+FF[-T**]FF+FF+FFFF-FF-FF[+I**]FF-F[+N*K]"/>
+            <rule char="N" replace_with="F-FF+FF[-T**]FF+FF+FFFF-FF-FF[+I**]FF-F[+N*K]"/>
+            <rule char="K" replace_with="[FFCT][-FFT][+FFI][--FFN][+FFT][-FFI][++FN]"/>
+            <alt_commands chars="T,I,N,K"/>
+          </street_gen>
+        </hub_rule>
+        <hub_rule name="townSmall">
+          <hub_type value="town"/>
+          <width value="300, 400" />
+          <height value="300, 400" />
+          <path_material value="dirt" />
+          <path_radius value="10" />
+          <prefab_rule name="humansTown"/>
+          <street_gen level="20" length_multiplier="4">
+            <axiom value="[FFCT][-FFT][+FFI][--FFN][+FFT][-FFI][++FN][F-FF+FF[-T]FF+FF+FFFF-FF-FF[+I]FF-F[+N]"/>
+            <rule char="T" replace_with="F-FF+FF[-T**]FF+FF+FFFF-FF-FF[+I**]FF-F[+N*K]"/>
+            <rule char="I" replace_with="F-FF+FF[-T**]FF+FF+FFFF-FF-FF[+I**]FF-F[+N*K]"/>
+            <rule char="N" replace_with="F-FF+FF[-T**]FF+FF+FFFF-FF-FF[+I**]FF-F[+N*K]"/>
+            <rule char="K" replace_with="[FFCT][-FFT][+FFI][--FFN][+FFT][-FFI][++FN]"/>
+            <alt_commands chars="T,I,N,K"/>
+          </street_gen>
+        </hub_rule>
+        <hub_rule name="townLarge">
+          <hub_type value="town"/>
+          <width value="500, 600" />
+          <height value="500, 600" />
+          <path_material value="dirt" />
+          <path_radius value="10" />
+          <prefab_rule name="humansTown"/>
+          <street_gen level="20" length_multiplier="4">
+            <axiom value="[FFCT][-FFT][+FFI][--FFN][+FFT][-FFI][++FN][F-FF+FF[-T]FF+FF+FFFF-FF-FF[+I]FF-F[+N]"/>
+            <rule char="T" replace_with="F-FF+FF[-T**]FF+FF+FFFF-FF-FF[+I**]FF-F[+N*K]"/>
+            <rule char="I" replace_with="F-FF+FF[-T**]FF+FF+FFFF-FF-FF[+I**]FF-F[+N*K]"/>
+            <rule char="N" replace_with="F-FF+FF[-T**]FF+FF+FFFF-FF-FF[+I**]FF-F[+N*K]"/>
+            <rule char="K" replace_with="[FFCT][-FFT][+FFI][--FFN][+FFT][-FFI][++FN]"/>
+            <alt_commands chars="T,I,N,K"/>
+          </street_gen>
+        </hub_rule>
+
+        <hub_rule name="encampmentSmall">
+          <hub_type value="town"/>
+          <width value="170, 200" />
+          <height value="170, 200" />
+          <path_material value="dirt" />
+          <path_radius value="10" />
+          <prefab_rule name="badlandsCamp"/>
+          <street_gen level="15" length_multiplier="4">
+            <axiom value="[FFCT][-FFT][+FFI][--FFN][+FFT][-FFI][++FN][F-FF+FF[-T]FF+FF+FFFF-FF-FF[+I]FF-F[+N]"/>
+            <rule char="T" replace_with="F-FF+FF[-T**]FF+FF+FFFF-FF-FF[+I**]FF-F[+N*K]"/>
+            <rule char="I" replace_with="F-FF+FF[-T**]FF+FF+FFFF-FF-FF[+I**]FF-F[+N*K]"/>
+            <rule char="N" replace_with="F-FF+FF[-T**]FF+FF+FFFF-FF-FF[+I**]FF-F[+N*K]"/>
+            <rule char="K" replace_with="[FFCT][-FFT][+FFI][--FFN][+FFT][-FFI][++FN]"/>
+            <alt_commands chars="T,I,N,K"/>
+          </street_gen>
+        </hub_rule>
+        <hub_rule name="encampmentLarge">
+          <hub_type value="town"/>
+          <width value="250, 250" />
+          <height value="250, 250" />
+          <path_material value="dirt" />
+          <path_radius value="10" />
+          <prefab_rule name="badlandsCamp"/>
+          <street_gen level="15" length_multiplier="4">
+            <axiom value="[FFCT][-FFT][+FFI][--FFN][+FFT][-FFI][++FN][F-FF+FF[-T]FF+FF+FFFF-FF-FF[+I]FF-F[+N]"/>
+            <rule char="T" replace_with="F-FF+FF[-T**]FF+FF+FFFF-FF-FF[+I**]FF-F[+N*K]"/>
+            <rule char="I" replace_with="F-FF+FF[-T**]FF+FF+FFFF-FF-FF[+I**]FF-F[+N*K]"/>
+            <rule char="N" replace_with="F-FF+FF[-T**]FF+FF+FFFF-FF-FF[+I**]FF-F[+N*K]"/>
+            <rule char="K" replace_with="[FFCT][-FFT][+FFI][--FFN][+FFT][-FFI][++FN]"/>
+            <alt_commands chars="T,I,N,K"/>
+          </street_gen>
+        </hub_rule>
+        <hub_rule name="fortressSmall">
+          <hub_type value="town"/>
+          <width value="200, 300" />
+          <height value="200, 300" />
+          <path_material value="dirt" />
+          <path_radius value="10" />
+          <prefab_rule name="badlandsFort"/>
+          <street_gen level="20" length_multiplier="4">
+            <axiom value="[FFCT][-FFT][+FFI][--FFN][+FFT][-FFI][++FN][F-FF+FF[-T]FF+FF+FFFF-FF-FF[+I]FF-F[+N]"/>
+            <rule char="T" replace_with="F-FF+FF[-T**]FF+FF+FFFF-FF-FF[+I**]FF-F[+N*K]"/>
+            <rule char="I" replace_with="F-FF+FF[-T**]FF+FF+FFFF-FF-FF[+I**]FF-F[+N*K]"/>
+            <rule char="N" replace_with="F-FF+FF[-T**]FF+FF+FFFF-FF-FF[+I**]FF-F[+N*K]"/>
+            <rule char="K" replace_with="[FFCT][-FFT][+FFI][--FFN][+FFT][-FFI][++FN]"/>
+            <alt_commands chars="T,I,N,K"/>
+          </street_gen>
+        </hub_rule>
+        <hub_rule name="fortressLarge">
+          <hub_type value="town"/>
+          <width value="400, 500" />
+          <height value="400, 500" />
+          <path_material value="dirt" />
+          <path_radius value="10" />
+          <prefab_rule name="badlandsFort"/>
+          <street_gen level="20" length_multiplier="4">
+            <axiom value="[FFCT][-FFT][+FFI][--FFN][+FFT][-FFI][++FN][F-FF+FF[-T]FF+FF+FFFF-FF-FF[+I]FF-F[+N]"/>
+            <rule char="T" replace_with="F-FF+FF[-T**]FF+FF+FFFF-FF-FF[+I**]FF-F[+N*K]"/>
+            <rule char="I" replace_with="F-FF+FF[-T**]FF+FF+FFFF-FF-FF[+I**]FF-F[+N*K]"/>
+            <rule char="N" replace_with="F-FF+FF[-T**]FF+FF+FFFF-FF-FF[+I**]FF-F[+N*K]"/>
+            <rule char="K" replace_with="[FFCT][-FFT][+FFI][--FFN][+FFT][-FFI][++FN]"/>
+            <alt_commands chars="T,I,N,K"/>
+          </street_gen>
+        </hub_rule>
+      </hub_rules>
+      <wilderness_rules>
+        <wilderness_rule name="wildernessHumans" spawn_min_max="15,20">
+          <path_material value="gravel" />
+          <path_radius value="2" />
+          <path_adjust_terrain value="false"/>
+          <prefab_rule name="wildernessHumans" prob="1"/>
+        </wilderness_rule>
+        <wilderness_rule name="wildernessBadlands" spawn_min_max="15,20">
+          <path_material value="gravel" />
+          <path_radius value="2" />
+          <path_adjust_terrain value="false"/>
+          <prefab_rule name="wildernessBadlands" prob="1"/>
+        </wilderness_rule>
+      </wilderness_rules>
+      <prefab_rules>
+        <prefab_rule name="none"/>
+        <prefab_rule name="humansVillage">
+          <prefab name="oldwest_gallows"/>
+        </prefab_rule>
+        <prefab_rule name="humansTown">
+          <prefab name="oldwest_gallows"/>
+        </prefab_rule>
+        <prefab_rule name="badlandsCamp">
+          <prefab name="oldwest_gallows"/>
+        </prefab_rule>
+        <prefab_rule name="badlandsFort">
+          <prefab name="oldwest_gallows"/>
+        </prefab_rule>
+        <prefab_rule name="wildernessHumans">
+          <prefab name="oldwest_gallows"/>
+        </prefab_rule>
+        <prefab_rule name="wildernessBadlands">
+          <prefab name="oldwest_gallows"/>
+        </prefab_rule>
+      </prefab_rules>
+      <hub_layouts>
+      </hub_layouts>
+      <terrain_generators>
+        <terrain_generator name="vanilla" use_old_final="false">
+          <module name="landBase" type="FastNoise" no_seed="true">
+            <property name="frequency" value="0.0002"/>
+            <!-- default 0.0002 -->
+            <property name="persistence" value="0.2"/>
+            <!-- default 0.0002 -->
+          </module>
+          <module name="landBias" type="BiasOutput">
+            <property name="sourceModule" value="landBase"/>
+            <property name="bias" value="1.5"/>
+          </module>
+          <module name="landScale" type="ScaleOutput">
+            <property name="sourceModule" value="landBias"/>
+            <property name="scale" value="0.0125"/>
+          </module>
+          <module name="landAddative" type="FastTurbulence">
+            <property name="sourceModule" value="landScale"/>
+            <property name="frequency" value="0.25"/>
+            <property name="persistence" value="0.2"/>
+            <property name="power" value="10"/>
+          </module>
+          <module name="landAddative2" type="FastTurbulence">
+            <property name="sourceModule" value="landAddative"/>
+            <property name="frequency" value="0.25"/>
+            <property name="persistence" value="0.2"/>
+            <property name="power" value="10"/>
+          </module>
+          <module name="landAddative3" type="FastTurbulence">
+            <property name="sourceModule" value="landAddative2"/>
+            <property name="frequency" value="0.25"/>
+            <property name="persistence" value="0.2"/>
+            <property name="power" value="10"/>
+          </module>
+          <module name="landAddative4" type="FastTurbulence">
+            <property name="sourceModule" value="landAddative3"/>
+            <property name="frequency" value="0.25"/>
+            <property name="persistence" value="0.2"/>
+            <property name="power" value="10"/>
+          </module>
+
+          <!-- Module block: Mountains -->
+          <module name="MntBase" type="FastBillow" no_seed="true">
+            <property name="frequency" value="0.007"/>
+            <property name="persistence" value="0.55"/>
+            <property name="displacement" value="0.6"/>
+          </module>
+          <module name="MntBias" type="BiasOutput">
+            <property name="sourceModule" value="MntBase"/>
+            <property name="bias" value="-0.75"/>
+          </module>
+          <module name="MntScaled" type="ScaleOutput">
+            <property name="sourceModule" value="MntBias"/>
+            <property name="scale" value="0.52125"/>
+          </module>
+          <module name="mntAddative" type="FastTurbulence">
+            <property name="sourceModule" value="MntScaled"/>
+            <property name="power" value="28"/>
+            <property name="frequency" value="0.45"/>
+            <property name="roughness" value="5"/>
+          </module>
+          <module name="mntClamp" type="ClampOutput">
+            <property name="sourceModule" value="mntAddative"/>
+            <property name="bounds" value="0,182"/>
+          </module>
+
+          <!-- Module Block: Lakes/Ponds -->
+          <module name="waterBase" type="FastBillow" no_seed="true">
+            <property name="frequency" value="0.4"/>
+            <property name="persistence" value="0.6"/>
+          </module>
+          <module name="waterBiasOutput" type="BiasOutput">
+            <property name="sourceModule" value="waterBase"/>
+            <property name="bias" value="0.7"/>
+            <!-- default "0.8" -->
+          </module>
+          <module name="waterScaled" type="ScaleOutput">
+            <property name="sourceModule" value="waterBiasOutput"/>
+            <property name="scale" value="0.25"/>
+          </module>
+
+          <!-- Control Module for Combiner Type Modules (Add/Blend/Select etc,.) -->
+          <module name="Control" type="FastNoise">
+            <property name="frequency" value="1"/>
+          </module>
+
+          <module name="Mnt" type="Blend" no_seed="true">
+            <property name="controlModule" value="Control"/>
+            <property name="sourceModule1" value="landAddative4"/>
+            <property name="sourceModule2" value="mntClamp"/>
+            <property name="roughness" value="8"/>
+            <property name="bounds" value="-1050,1050"/>
+          </module>
+
+          <module name="Land_Mnt" type="Blend" no_seed="true">
+            <property name="controlModule" value="Control"/>
+            <property name="sourceModule1" value="landAddative4"/>
+            <property name="sourceModule2" value="Mnt"/>
+            <property name="roughness" value="8"/>
+            <property name="bounds" value="1050,2100"/>
+          </module>
+
+          <module name="Water_Land_Mnt" type="Blend" no_seed="true">
+            <property name="controlModule" value="Control"/>
+            <property name="sourceModule1" value="waterScaled"/>
+            <property name="sourceModule2" value="Land_Mnt"/>
+            <property name="bounds" value="0,2100"/>
+            <!--<property name="edgeFalloff" value="0.5"/>-->
+          </module>
+
+          <module name="Final" type="Select" no_seed="true">
+            <property name="controlModule" value="Control"/>
+            <property name="sourceModule1" value="landAddative4"/>
+            <property name="sourceModule2" value="Water_Land_Mnt"/>
+            <property name="roughness" value="8"/>
+            <property name="bounds" value="0,21000"/>
+            <property name="edgeFalloff" value="0.5"/>
+          </module>
+
+          <module name="scaleBiasOutput" type="ScaleBiasOutput">
+            <property name="sourceModule" value="Final"/>
+            <property name="scale" value="182"/>
+            <property name="bias" value="0.25"/>
+          </module>
+
+          <output module="scaleBiasOutput"/>
+
+          <!-- flat world for building -->
+          <!--<module name="clampOutput" type="ClampOutput">
+        <property name="sourceModule" value="scaleBiasOutput"/>
+        <property name="bounds" value="5,5"/>
+      </module>      
+      <output module="clampOutput"/>-->
+        </terrain_generator>
+
+
+      </terrain_generators>
+      <biome_generators>
+        <biome_generator name="vanilla">
+          <module name="voronoi" type="Voronoi">
+            <property name="frequency" value="0.0003"/>
+            <property name="displacement" value="0.5"/>
+          </module>
+          <module name="biasOutput" type="BiasOutput">
+            <property name="sourceModule" value="voronoi"/>
+            <property name="bias" value="0.5"/>
+          </module>
+          <module name="scaleOutput" type="ScaleOutput">
+            <property name="sourceModule" value="biasOutput"/>
+            <property name="scale" value="1"/>
+          </module>
+          <module name="dithering" type="FastTurbulence">
+            <property name="sourceModule" value="scaleOutput"/>
+            <property name="frequency" value="0.25"/>
+            <property name="power" value="70"/>
+            <property name="roughness" value="5"/>
+          </module>
+          <module name="jiggle" type="FastTurbulence">
+            <property name="sourceModule" value="dithering"/>
+            <property name="frequency" value="0.25"/>
+            <property name="power" value="50"/>
+            <property name="roughness" value="5"/>
+          </module>
+          <module name="clampOutput" type="ClampOutput">
+            <property name="sourceModule" value="jiggle"/>
+            <property name="bounds" value="0,1"/>
+          </module>
+
+          <output module="clampOutput"/>
+        </biome_generator>
+      </biome_generators>
+      <biome_spawn_rules>
+        <!-- FOREST -->
+        <biome_spawn_rule name="forest">
+          <biome_generator range="0, 1"/>
+        </biome_spawn_rule>
+
+        <!-- FOREST -->
+        <!--<biome_spawn_rule name="forest">
+      <biome_generator range="0, 0.2"/>
+    </biome_spawn_rule>-->
+        <!-- ORC / TROLL LANDS -->
+        <!--<biome_spawn_rule name="pine_forest">
+      <biome_generator range="0.2, 0.3"/>
+    </biome_spawn_rule>-->
+        <!-- GRASSLANDS -->
+        <!--<biome_spawn_rule name="plains">
+      <biome_generator range="0.3, 0.4"/>
+    </biome_spawn_rule>-->
+        <!-- SPOOKY FOREST -->
+        <!--<biome_spawn_rule name="desert">
+      <biome_generator range="0.4, 0.5"/>
+    </biome_spawn_rule>-->
+        <!-- BLIGHTED LANDS -->
+        <!--<biome_spawn_rule name="wasteland">
+      <biome_generator range="0.5, 0.6"/>
+    </biome_spawn_rule>-->
+        <!-- SWAMPLANDS -->
+        <!--<biome_spawn_rule name="burnt_forest">
+      <biome_generator range="0.6, 0.7"/>
+    </biome_spawn_rule>-->
+        <!-- SCORCED EARTH -->
+        <!--<biome_spawn_rule name="city">
+      <biome_generator range="0.7, 0.8"/>
+    </biome_spawn_rule>-->
+        <!-- CRYSTAL FOREST -->
+        <!--<biome_spawn_rule name="city_wasteland">
+      <biome_generator range="0.8, 0.9"/>
+    </biome_spawn_rule>-->
+        <!-- BLASTED LANDS -->
+        <!--<biome_spawn_rule name="wasteland_hub">
+      <biome_generator range="0.9, 1"/>
+    </biome_spawn_rule>-->
+
+        <!-- CURSED LANDS -->
+        <biome_spawn_rule name="radiated">
+          <distance_from_center range="3000,10000"/>
+        </biome_spawn_rule>
+        <!-- SNOW -->
+        <biome_spawn_rule name="snow">
+          <terrain_generator range="106,255"/>
+        </biome_spawn_rule>
+        <!-- WATER -->
+        <biome_spawn_rule name="water">
+          <terrain_generator range="-31, 0"/>
+        </biome_spawn_rule>
+      </biome_spawn_rules>
+    </append>
+  </config>
+</configs>

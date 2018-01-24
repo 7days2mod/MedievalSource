@@ -1,0 +1,931 @@
+<configs>
+  <config name="painting">
+    <append xpath="/*">
+      <paint id="0" name="txName_Delete">
+        <property name="TextureId" value="0" />
+        <property name="Group" value="txGroupExcluded" />
+        <property name="Hidden" value="true" />
+      </paint>
+      <paint id="1" name="txName_Texture001">
+        <property name="TextureId" value="7"/>
+        <property name="Group" value="txGroupFaux" />
+        <property name="PaintCost" value="2"/>
+      </paint>
+      <paint id="2" name="txName_Texture002">
+        <property name="TextureId" value="8"/>
+        <property name="Group" value="txGroupFaux" />
+        <property name="PaintCost" value="2"/>
+      </paint>
+      <paint id="3" name="txName_Texture003">
+        <property name="TextureId" value="9"/>
+        <property name="Group" value="txGroupFaux" />
+        <property name="PaintCost" value="2"/>
+      </paint>
+      <paint id="4" name="txName_Texture004">
+        <property name="TextureId" value="10"/>
+        <property name="Group" value="txGroupFaux" />
+        <property name="PaintCost" value="2"/>
+      </paint>
+      <paint id="5" name="txName_Texture005">
+        <property name="TextureId" value="11"/>
+        <property name="Group" value="txGroupFaux" />
+        <property name="PaintCost" value="2"/>
+      </paint>
+      <paint id="6" name="txName_Texture006">
+        <property name="TextureId" value="12"/>
+        <property name="Group" value="txGroupFaux" />
+        <property name="PaintCost" value="2"/>
+      </paint>
+      <paint id="7" name="txName_Texture007">
+        <property name="TextureId" value="13"/>
+        <property name="Group" value="txGroupFaux" />
+        <property name="PaintCost" value="2"/>
+      </paint>
+      <paint id="8" name="txName_Texture008">
+        <property name="TextureId" value="14"/>
+        <property name="Group" value="txGroupFaux" />
+        <property name="PaintCost" value="2"/>
+      </paint>
+      <paint id="9" name="txName_Texture009">
+        <property name="TextureId" value="15"/>
+        <property name="Group" value="txGroupFaux" />
+        <property name="PaintCost" value="2"/>
+      </paint>
+      <paint id="10" name="txName_Texture010">
+        <property name="TextureId" value="21"/>
+        <property name="Group" value="txGroupFaux" />
+        <property name="PaintCost" value="2"/>
+      </paint>
+      <paint id="11" name="txName_Texture011">
+        <property name="TextureId" value="22"/>
+        <property name="Group" value="txGroupFaux" />
+        <property name="PaintCost" value="2"/>
+      </paint>
+      <paint id="12" name="txName_Texture012">
+        <property name="TextureId" value="23"/>
+        <property name="Group" value="txGroupFaux" />
+        <property name="PaintCost" value="2"/>
+      </paint>
+      <paint id="13" name="txName_Texture013">
+        <property name="TextureId" value="24"/>
+        <property name="Group" value="txGroupFaux" />
+        <property name="PaintCost" value="2"/>
+      </paint>
+      <paint id="14" name="txName_Texture014">
+        <property name="TextureId" value="25"/>
+        <property name="Group" value="txGroupFaux" />
+        <property name="PaintCost" value="2"/>
+      </paint>
+      <paint id="15" name="txName_Texture015">
+        <property name="TextureId" value="26"/>
+        <property name="Group" value="txGroupFaux" />
+        <property name="PaintCost" value="2"/>
+      </paint>
+      <paint id="16" name="txName_Texture016">
+        <property name="TextureId" value="43"/>
+        <property name="Group" value="txGroupFaux" />
+        <property name="PaintCost" value="2"/>
+      </paint>
+      <paint id="17" name="txName_Texture017">
+        <property name="TextureId" value="44"/>
+        <property name="Group" value="txGroupFaux" />
+        <property name="PaintCost" value="2"/>
+      </paint>
+      <paint id="18" name="txName_Texture018">
+        <property name="TextureId" value="46"/>
+        <property name="Group" value="txGroupFaux" />
+        <property name="PaintCost" value="2"/>
+      </paint>
+      <paint id="19" name="txName_Texture019">
+        <property name="TextureId" value="50"/>
+        <property name="Group" value="txGroupFaux" />
+        <property name="PaintCost" value="2"/>
+      </paint>
+      <paint id="20" name="txName_Texture020">
+        <property name="TextureId" value="51"/>
+        <property name="Group" value="txGroupFaux" />
+        <property name="PaintCost" value="2"/>
+      </paint>
+      <paint id="21" name="txName_Texture021">
+        <property name="TextureId" value="52"/>
+        <property name="Group" value="txGroupFaux" />
+        <property name="PaintCost" value="2"/>
+      </paint>
+      <paint id="22" name="txName_Texture022">
+        <property name="TextureId" value="53"/>
+        <property name="Group" value="txGroupFaux" />
+        <property name="PaintCost" value="2"/>
+      </paint>
+      <paint id="23" name="txName_Texture023">
+        <property name="TextureId" value="54"/>
+        <property name="Group" value="txGroupFaux" />
+        <property name="PaintCost" value="2"/>
+      </paint>
+      <paint id="24" name="txName_Texture024">
+        <property name="TextureId" value="55"/>
+        <property name="Group" value="txGroupFaux" />
+        <property name="PaintCost" value="2"/>
+      </paint>
+      <paint id="25" name="txName_Texture025">
+        <property name="TextureId" value="56"/>
+        <property name="Group" value="txGroupFaux" />
+        <property name="PaintCost" value="2"/>
+      </paint>
+      <paint id="26" name="txName_Texture026">
+        <property name="TextureId" value="57"/>
+        <property name="Group" value="txGroupFaux" />
+        <property name="PaintCost" value="2"/>
+      </paint>
+      <paint id="27" name="txName_Texture027">
+        <property name="TextureId" value="58"/>
+        <property name="Group" value="txGroupFaux" />
+        <property name="PaintCost" value="2"/>
+      </paint>
+      <paint id="28" name="txName_Texture028">
+        <property name="TextureId" value="59"/>
+        <property name="Group" value="txGroupFaux" />
+        <property name="PaintCost" value="2"/>
+      </paint>
+      <paint id="29" name="txName_Texture029">
+        <property name="TextureId" value="61"/>
+        <property name="Group" value="txGroupFaux" />
+        <property name="PaintCost" value="2"/>
+      </paint>
+      <paint id="30" name="txName_Texture030">
+        <property name="TextureId" value="62"/>
+        <property name="Group" value="txGroupFaux" />
+        <property name="PaintCost" value="2"/>
+      </paint>
+      <paint id="31" name="txName_Texture031">
+        <property name="TextureId" value="64"/>
+        <property name="Group" value="txGroupFaux" />
+        <property name="PaintCost" value="2"/>
+      </paint>
+      <paint id="32" name="txName_Texture032">
+        <property name="TextureId" value="65"/>
+        <property name="Group" value="txGroupFaux" />
+        <property name="PaintCost" value="2"/>
+      </paint>
+      <paint id="33" name="txName_Texture033">
+        <property name="TextureId" value="67"/>
+        <property name="Group" value="txGroupFaux" />
+        <property name="PaintCost" value="2"/>
+      </paint>
+      <paint id="34" name="txName_Texture034">
+        <property name="TextureId" value="73"/>
+        <property name="Group" value="txGroupFaux" />
+        <property name="PaintCost" value="2"/>
+      </paint>
+      <paint id="35" name="txName_Texture035">
+        <property name="TextureId" value="74"/>
+        <property name="Group" value="txGroupFaux" />
+        <property name="PaintCost" value="2"/>
+      </paint>
+      <paint id="36" name="txName_Texture036">
+        <property name="TextureId" value="75"/>
+        <property name="Group" value="txGroupFaux" />
+        <property name="PaintCost" value="2"/>
+      </paint>
+      <paint id="37" name="txName_Texture037">
+        <property name="TextureId" value="76"/>
+        <property name="Group" value="txGroupFaux" />
+        <property name="PaintCost" value="2"/>
+      </paint>
+      <paint id="38" name="txName_Texture038">
+        <property name="TextureId" value="77"/>
+        <property name="Group" value="txGroupFaux" />
+        <property name="PaintCost" value="2"/>
+      </paint>
+      <paint id="39" name="txName_Texture039">
+        <property name="TextureId" value="78"/>
+        <property name="Group" value="txGroupFaux" />
+        <property name="PaintCost" value="2"/>
+      </paint>
+      <paint id="40" name="txName_Texture040">
+        <property name="TextureId" value="79"/>
+        <property name="Group" value="txGroupFaux" />
+        <property name="PaintCost" value="2"/>
+      </paint>
+      <paint id="41" name="txName_Texture041">
+        <property name="TextureId" value="81"/>
+        <property name="Group" value="txGroupFaux" />
+        <property name="PaintCost" value="2"/>
+      </paint>
+      <paint id="42" name="txName_Texture042">
+        <property name="TextureId" value="84"/>
+        <property name="Group" value="txGroupFaux" />
+        <property name="PaintCost" value="2"/>
+      </paint>
+      <paint id="43" name="txName_Texture043">
+        <property name="TextureId" value="116"/>
+        <property name="Group" value="txGroupFaux" />
+        <property name="PaintCost" value="2"/>
+      </paint>
+      <paint id="44" name="txName_Texture044">
+        <property name="TextureId" value="168"/>
+        <property name="Group" value="txGroupFaux" />
+        <property name="PaintCost" value="2"/>
+      </paint>
+      <paint id="45" name="txName_Texture045">
+        <property name="TextureId" value="169"/>
+        <property name="Group" value="txGroupFaux" />
+        <property name="PaintCost" value="2"/>
+      </paint>
+      <paint id="46" name="txName_Texture046">
+        <property name="TextureId" value="170"/>
+        <property name="Group" value="txGroupFaux" />
+        <property name="PaintCost" value="2"/>
+      </paint>
+      <paint id="47" name="txName_Texture047">
+        <property name="TextureId" value="171"/>
+        <property name="Group" value="txGroupFaux" />
+        <property name="PaintCost" value="2"/>
+      </paint>
+      <paint id="48" name="txName_Texture048">
+        <property name="TextureId" value="172"/>
+        <property name="Group" value="txGroupFaux" />
+        <property name="PaintCost" value="2"/>
+      </paint>
+      <paint id="49" name="txName_Texture049">
+        <property name="TextureId" value="173"/>
+        <property name="Group" value="txGroupFaux" />
+        <property name="PaintCost" value="2"/>
+      </paint>
+      <paint id="50" name="txName_Texture050">
+        <property name="TextureId" value="174"/>
+        <property name="Group" value="txGroupFaux" />
+        <property name="PaintCost" value="2"/>
+      </paint>
+      <paint id="51" name="txName_Texture051">
+        <property name="TextureId" value="176"/>
+        <property name="Group" value="txGroupFaux" />
+        <property name="PaintCost" value="2"/>
+      </paint>
+      <paint id="52" name="txName_Texture052">
+        <property name="TextureId" value="189"/>
+        <property name="Group" value="txGroupFaux" />
+        <property name="PaintCost" value="2"/>
+      </paint>
+      <paint id="53" name="txName_Texture053">
+        <property name="TextureId" value="190"/>
+        <property name="Group" value="txGroupFaux" />
+        <property name="PaintCost" value="2"/>
+      </paint>
+      <paint id="54" name="txName_Texture054">
+        <property name="TextureId" value="191"/>
+        <property name="Group" value="txGroupFaux" />
+        <property name="PaintCost" value="2"/>
+      </paint>
+      <paint id="55" name="txName_Texture055">
+        <property name="TextureId" value="192"/>
+        <property name="Group" value="txGroupFaux" />
+        <property name="PaintCost" value="2"/>
+      </paint>
+      <paint id="56" name="txName_Texture056">
+        <property name="TextureId" value="193"/>
+        <property name="Group" value="txGroupFaux" />
+        <property name="PaintCost" value="2"/>
+      </paint>
+      <paint id="57" name="txName_Texture057">
+        <property name="TextureId" value="194"/>
+        <property name="Group" value="txGroupFaux" />
+        <property name="PaintCost" value="2"/>
+      </paint>
+      <paint id="58" name="txName_Texture058">
+        <property name="TextureId" value="196"/>
+        <property name="Group" value="txGroupFaux" />
+        <property name="PaintCost" value="2"/>
+      </paint>
+      <paint id="59" name="txName_Texture059">
+        <property name="TextureId" value="214"/>
+        <property name="Group" value="txGroupFaux" />
+        <property name="PaintCost" value="2"/>
+      </paint>
+      <paint id="60" name="txName_Texture060">
+        <property name="TextureId" value="215"/>
+        <property name="Group" value="txGroupFaux" />
+        <property name="PaintCost" value="2"/>
+      </paint>
+      <paint id="61" name="txName_Texture061">
+        <property name="TextureId" value="216"/>
+        <property name="Group" value="txGroupFaux" />
+        <property name="PaintCost" value="2"/>
+      </paint>
+      <paint id="62" name="txName_Texture062">
+        <property name="TextureId" value="217"/>
+        <property name="Group" value="txGroupFaux" />
+        <property name="PaintCost" value="2"/>
+      </paint>
+      <paint id="63" name="txName_Texture063">
+        <property name="TextureId" value="226"/>
+        <property name="Group" value="txGroupFaux" />
+        <property name="PaintCost" value="2"/>
+      </paint>
+      <paint id="64" name="txName_Texture064">
+        <property name="TextureId" value="227"/>
+        <property name="Group" value="txGroupFaux" />
+        <property name="PaintCost" value="2"/>
+      </paint>
+      <paint id="65" name="txName_Texture065">
+        <property name="TextureId" value="229"/>
+        <property name="Group" value="txGroupFaux" />
+        <property name="PaintCost" value="2"/>
+      </paint>
+      <paint id="66" name="txName_Texture066">
+        <property name="TextureId" value="241"/>
+        <property name="Group" value="txGroupFaux" />
+        <property name="PaintCost" value="2"/>
+      </paint>
+      <paint id="67" name="txName_Texture067">
+        <property name="TextureId" value="245"/>
+        <property name="Group" value="txGroupFaux" />
+        <property name="PaintCost" value="2"/>
+      </paint>
+      <paint id="68" name="txName_Texture068">
+        <property name="TextureId" value="246"/>
+        <property name="Group" value="txGroupFaux" />
+        <property name="PaintCost" value="2"/>
+      </paint>
+      <paint id="69" name="txName_Texture069">
+        <property name="TextureId" value="247"/>
+        <property name="Group" value="txGroupFaux" />
+        <property name="PaintCost" value="2"/>
+      </paint>
+      <paint id="70" name="txName_Texture070">
+        <property name="TextureId" value="248"/>
+        <property name="Group" value="txGroupFaux" />
+        <property name="PaintCost" value="2"/>
+      </paint>
+      <paint id="71" name="txName_Texture071">
+        <property name="TextureId" value="261"/>
+        <property name="Group" value="txGroupFaux" />
+        <property name="PaintCost" value="2"/>
+      </paint>
+      <paint id="72" name="txName_Texture072">
+        <property name="TextureId" value="262"/>
+        <property name="Group" value="txGroupFaux" />
+        <property name="PaintCost" value="2"/>
+      </paint>
+      <paint id="73" name="txName_Texture073">
+        <property name="TextureId" value="263"/>
+        <property name="Group" value="txGroupFaux" />
+        <property name="PaintCost" value="2"/>
+      </paint>
+      <paint id="74" name="txName_Texture074">
+        <property name="TextureId" value="265"/>
+        <property name="Group" value="txGroupFaux" />
+        <property name="PaintCost" value="2"/>
+      </paint>
+      <paint id="75" name="txName_Texture075">
+        <property name="TextureId" value="266"/>
+        <property name="Group" value="txGroupFaux" />
+        <property name="PaintCost" value="2"/>
+      </paint>
+      <paint id="76" name="txName_Texture076">
+        <property name="TextureId" value="267"/>
+        <property name="Group" value="txGroupFaux" />
+        <property name="PaintCost" value="2"/>
+      </paint>
+      <paint id="77" name="txName_Texture077">
+        <property name="TextureId" value="269"/>
+        <property name="Group" value="txGroupFaux" />
+        <property name="PaintCost" value="2"/>
+      </paint>
+      <paint id="78" name="txName_Texture078">
+        <property name="TextureId" value="270"/>
+        <property name="Group" value="txGroupFaux" />
+        <property name="PaintCost" value="2"/>
+      </paint>
+      <paint id="79" name="txName_Texture079">
+        <property name="TextureId" value="272"/>
+        <property name="Group" value="txGroupFaux" />
+        <property name="PaintCost" value="2"/>
+      </paint>
+      <paint id="80" name="txName_Texture080">
+        <property name="TextureId" value="276"/>
+        <property name="Group" value="txGroupFaux" />
+        <property name="PaintCost" value="2"/>
+      </paint>
+      <paint id="81" name="txName_Texture081">
+        <property name="TextureId" value="277"/>
+        <property name="Group" value="txGroupFaux" />
+        <property name="PaintCost" value="2"/>
+      </paint>
+      <paint id="82" name="txName_Texture082">
+        <property name="TextureId" value="278"/>
+        <property name="Group" value="txGroupFaux" />
+        <property name="PaintCost" value="2"/>
+      </paint>
+      <paint id="83" name="txName_Texture083">
+        <property name="TextureId" value="279"/>
+        <property name="Group" value="txGroupFaux" />
+        <property name="PaintCost" value="2"/>
+      </paint>
+      <paint id="84" name="txName_Texture084">
+        <property name="TextureId" value="280"/>
+        <property name="Group" value="txGroupFaux" />
+        <property name="PaintCost" value="2"/>
+      </paint>
+      <paint id="85" name="txName_Texture085">
+        <property name="TextureId" value="282"/>
+        <property name="Group" value="txGroupFaux" />
+        <property name="PaintCost" value="2"/>
+      </paint>
+      <paint id="86" name="txName_Texture086">
+        <property name="TextureId" value="283"/>
+        <property name="Group" value="txGroupFaux" />
+        <property name="PaintCost" value="2"/>
+      </paint>
+      <paint id="87" name="txName_Texture087">
+        <property name="TextureId" value="284"/>
+        <property name="Group" value="txGroupFaux" />
+        <property name="PaintCost" value="2"/>
+      </paint>
+      <paint id="88" name="txName_Texture088">
+        <property name="TextureId" value="299"/>
+        <property name="Group" value="txGroupFaux" />
+        <property name="PaintCost" value="2"/>
+      </paint>
+      <paint id="89" name="txName_Texture089">
+        <property name="TextureId" value="302"/>
+        <property name="Group" value="txGroupFaux" />
+        <property name="PaintCost" value="2"/>
+      </paint>
+      <paint id="90" name="txName_Texture090">
+        <property name="TextureId" value="303"/>
+        <property name="Group" value="txGroupFaux" />
+        <property name="PaintCost" value="2"/>
+      </paint>
+      <paint id="91" name="txName_Texture091">
+        <property name="TextureId" value="307"/>
+        <property name="Group" value="txGroupFaux" />
+        <property name="PaintCost" value="2"/>
+      </paint>
+      <paint id="92" name="txName_Texture092">
+        <property name="TextureId" value="311"/>
+        <property name="Group" value="txGroupFaux" />
+        <property name="PaintCost" value="2"/>
+      </paint>
+      <paint id="93" name="txName_Texture093">
+        <property name="TextureId" value="312"/>
+        <property name="Group" value="txGroupFaux" />
+        <property name="PaintCost" value="2"/>
+      </paint>
+      <paint id="94" name="txName_Texture094">
+        <property name="TextureId" value="314"/>
+        <property name="Group" value="txGroupFaux" />
+        <property name="PaintCost" value="2"/>
+      </paint>
+      <paint id="95" name="txName_Texture095">
+        <property name="TextureId" value="315"/>
+        <property name="Group" value="txGroupFaux" />
+        <property name="PaintCost" value="2"/>
+      </paint>
+      <paint id="96" name="txName_Texture096">
+        <property name="TextureId" value="319"/>
+        <property name="Group" value="txGroupFaux" />
+        <property name="PaintCost" value="2"/>
+      </paint>
+      <paint id="97" name="txName_Texture097">
+        <property name="TextureId" value="320"/>
+        <property name="Group" value="txGroupFaux" />
+        <property name="PaintCost" value="2"/>
+      </paint>
+      <paint id="98" name="txName_Texture098">
+        <property name="TextureId" value="321"/>
+        <property name="Group" value="txGroupFaux" />
+        <property name="PaintCost" value="2"/>
+      </paint>
+      <paint id="99" name="txName_Texture099">
+        <property name="TextureId" value="326"/>
+        <property name="Group" value="txGroupFaux" />
+        <property name="PaintCost" value="2"/>
+      </paint>
+      <paint id="100" name="txName_Texture100">
+        <property name="TextureId" value="328"/>
+        <property name="Group" value="txGroupFaux" />
+        <property name="PaintCost" value="2"/>
+      </paint>
+      <paint id="101" name="txName_Texture101">
+        <property name="TextureId" value="329"/>
+        <property name="Group" value="txGroupFaux" />
+        <property name="PaintCost" value="2"/>
+      </paint>
+      <paint id="102" name="txName_Texture102">
+        <property name="TextureId" value="330"/>
+        <property name="Group" value="txGroupFaux" />
+        <property name="PaintCost" value="2"/>
+      </paint>
+      <paint id="103" name="txName_Texture103">
+        <property name="TextureId" value="331"/>
+        <property name="Group" value="txGroupFaux" />
+        <property name="PaintCost" value="2"/>
+      </paint>
+      <paint id="104" name="txName_Texture104">
+        <property name="TextureId" value="332"/>
+        <property name="Group" value="txGroupFaux" />
+        <property name="PaintCost" value="2"/>
+      </paint>
+      <paint id="105" name="txName_Texture105">
+        <property name="TextureId" value="334"/>
+        <property name="Group" value="txGroupFaux" />
+        <property name="PaintCost" value="2"/>
+      </paint>
+      <paint id="106" name="txName_Texture106">
+        <property name="TextureId" value="335"/>
+        <property name="Group" value="txGroupFaux" />
+        <property name="PaintCost" value="2"/>
+      </paint>
+      <paint id="107" name="txName_Texture107">
+        <property name="TextureId" value="336"/>
+        <property name="Group" value="txGroupFaux" />
+        <property name="PaintCost" value="2"/>
+      </paint>
+      <paint id="108" name="txName_Texture108">
+        <property name="TextureId" value="340"/>
+        <property name="Group" value="txGroupFaux" />
+        <property name="PaintCost" value="2"/>
+      </paint>
+      <paint id="109" name="txName_Texture109">
+        <property name="TextureId" value="341"/>
+        <property name="Group" value="txGroupFaux" />
+        <property name="PaintCost" value="2"/>
+      </paint>
+      <paint id="110" name="txName_Texture110">
+        <property name="TextureId" value="342"/>
+        <property name="Group" value="txGroupFaux" />
+        <property name="PaintCost" value="2"/>
+      </paint>
+      <paint id="111" name="txName_Texture111">
+        <property name="TextureId" value="344"/>
+        <property name="Group" value="txGroupFaux" />
+        <property name="PaintCost" value="2"/>
+      </paint>
+      <paint id="112" name="txName_Texture112">
+        <property name="TextureId" value="345"/>
+        <property name="Group" value="txGroupFaux" />
+        <property name="PaintCost" value="2"/>
+      </paint>
+      <paint id="113" name="txName_Texture113">
+        <property name="TextureId" value="346"/>
+        <property name="Group" value="txGroupFaux" />
+        <property name="PaintCost" value="2"/>
+      </paint>
+      <paint id="114" name="txName_Texture114">
+        <property name="TextureId" value="352"/>
+        <property name="Group" value="txGroupFaux" />
+        <property name="PaintCost" value="2"/>
+      </paint>
+      <paint id="115" name="txName_Texture115">
+        <property name="TextureId" value="355"/>
+        <property name="Group" value="txGroupFaux" />
+        <property name="PaintCost" value="2"/>
+      </paint>
+      <paint id="116" name="txName_Texture116">
+        <property name="TextureId" value="356"/>
+        <property name="Group" value="txGroupFaux" />
+        <property name="PaintCost" value="2"/>
+      </paint>
+      <paint id="117" name="txName_Texture117">
+        <property name="TextureId" value="358"/>
+        <property name="Group" value="txGroupFaux" />
+        <property name="PaintCost" value="2"/>
+      </paint>
+      <paint id="118" name="txName_Texture118">
+        <property name="TextureId" value="361"/>
+        <property name="Group" value="txGroupFaux" />
+        <property name="PaintCost" value="2"/>
+      </paint>
+      <paint id="119" name="txName_Texture119">
+        <property name="TextureId" value="372"/>
+        <property name="Group" value="txGroupFaux" />
+        <property name="PaintCost" value="2"/>
+      </paint>
+      <paint id="120" name="txName_Texture120">
+        <property name="TextureId" value="373"/>
+        <property name="Group" value="txGroupFaux" />
+        <property name="PaintCost" value="2"/>
+      </paint>
+      <paint id="121" name="txName_Texture121">
+        <property name="TextureId" value="374"/>
+        <property name="Group" value="txGroupFaux" />
+        <property name="PaintCost" value="2"/>
+      </paint>
+      <paint id="122" name="txName_Texture122">
+        <property name="TextureId" value="376"/>
+        <property name="Group" value="txGroupFaux" />
+        <property name="PaintCost" value="2"/>
+      </paint>
+      <paint id="123" name="txName_Texture123">
+        <property name="TextureId" value="379"/>
+        <property name="Group" value="txGroupFaux" />
+        <property name="PaintCost" value="2"/>
+      </paint>
+      <paint id="124" name="txName_Texture124">
+        <property name="TextureId" value="380"/>
+        <property name="Group" value="txGroupFaux" />
+        <property name="PaintCost" value="2"/>
+      </paint>
+      <paint id="125" name="txName_Texture125">
+        <property name="TextureId" value="382"/>
+        <property name="Group" value="txGroupFaux" />
+        <property name="PaintCost" value="2"/>
+      </paint>
+      <paint id="126" name="txName_Texture126">
+        <property name="TextureId" value="384"/>
+        <property name="Group" value="txGroupFaux" />
+        <property name="PaintCost" value="2"/>
+      </paint>
+      <paint id="127" name="txName_Texture127">
+        <property name="TextureId" value="385"/>
+        <property name="Group" value="txGroupFaux" />
+        <property name="PaintCost" value="2"/>
+      </paint>
+      <paint id="128" name="txName_Texture128">
+        <property name="TextureId" value="391"/>
+        <property name="Group" value="txGroupFaux" />
+        <property name="PaintCost" value="2"/>
+      </paint>
+      <paint id="129" name="txName_Texture129">
+        <property name="TextureId" value="407"/>
+        <property name="Group" value="txGroupFaux" />
+        <property name="PaintCost" value="2"/>
+      </paint>
+      <paint id="130" name="txName_Texture130">
+        <property name="TextureId" value="408"/>
+        <property name="Group" value="txGroupFaux" />
+        <property name="PaintCost" value="2"/>
+      </paint>
+      <paint id="131" name="txName_Texture131">
+        <property name="TextureId" value="410"/>
+        <property name="Group" value="txGroupFaux" />
+        <property name="PaintCost" value="2"/>
+      </paint>
+      <paint id="132" name="txName_Texture132">
+        <property name="TextureId" value="413"/>
+        <property name="Group" value="txGroupFaux" />
+        <property name="PaintCost" value="2"/>
+      </paint>
+      <paint id="133" name="txName_Texture133">
+        <property name="TextureId" value="418"/>
+        <property name="Group" value="txGroupFaux" />
+        <property name="PaintCost" value="2"/>
+      </paint>
+      <paint id="134" name="txName_Texture134">
+        <property name="TextureId" value="419"/>
+        <property name="Group" value="txGroupFaux" />
+        <property name="PaintCost" value="2"/>
+      </paint>
+      <paint id="135" name="txName_Texture135">
+        <property name="TextureId" value="420"/>
+        <property name="Group" value="txGroupFaux" />
+        <property name="PaintCost" value="2"/>
+      </paint>
+      <paint id="136" name="txName_Texture136">
+        <property name="TextureId" value="421"/>
+        <property name="Group" value="txGroupFaux" />
+        <property name="PaintCost" value="2"/>
+      </paint>
+      <paint id="137" name="txName_Texture137">
+        <property name="TextureId" value="422"/>
+        <property name="Group" value="txGroupFaux" />
+        <property name="PaintCost" value="2"/>
+      </paint>
+      <paint id="138" name="txName_Texture138">
+        <property name="TextureId" value="423"/>
+        <property name="Group" value="txGroupFaux" />
+        <property name="PaintCost" value="2"/>
+      </paint>
+      <paint id="139" name="txName_Texture139">
+        <property name="TextureId" value="427"/>
+        <property name="Group" value="txGroupFaux" />
+        <property name="PaintCost" value="2"/>
+      </paint>
+      <paint id="140" name="txName_Texture140">
+        <property name="TextureId" value="428"/>
+        <property name="Group" value="txGroupFaux" />
+        <property name="PaintCost" value="2"/>
+      </paint>
+      <paint id="141" name="txName_Texture141">
+        <property name="TextureId" value="429"/>
+        <property name="Group" value="txGroupFaux" />
+        <property name="PaintCost" value="2"/>
+      </paint>
+      <paint id="142" name="txName_Texture142">
+        <property name="TextureId" value="430"/>
+        <property name="Group" value="txGroupFaux" />
+        <property name="PaintCost" value="2"/>
+      </paint>
+      <paint id="143" name="txName_Texture143">
+        <property name="TextureId" value="435"/>
+        <property name="Group" value="txGroupFaux" />
+        <property name="PaintCost" value="2"/>
+      </paint>
+      <paint id="144" name="txName_Texture144">
+        <property name="TextureId" value="436"/>
+        <property name="Group" value="txGroupFaux" />
+        <property name="PaintCost" value="2"/>
+      </paint>
+      <paint id="145" name="txName_Texture145">
+        <property name="TextureId" value="442"/>
+        <property name="Group" value="txGroupFaux" />
+        <property name="PaintCost" value="2"/>
+      </paint>
+      <paint id="146" name="txName_Texture146">
+        <property name="TextureId" value="443"/>
+        <property name="Group" value="txGroupFaux" />
+        <property name="PaintCost" value="2"/>
+      </paint>
+      <paint id="147" name="txName_Texture147">
+        <property name="TextureId" value="445"/>
+        <property name="Group" value="txGroupFaux" />
+        <property name="PaintCost" value="2"/>
+      </paint>
+      <paint id="148" name="txName_Texture148">
+        <property name="TextureId" value="446"/>
+        <property name="Group" value="txGroupFaux" />
+        <property name="PaintCost" value="2"/>
+      </paint>
+      <paint id="149" name="txName_Texture149">
+        <property name="TextureId" value="519"/>
+        <property name="Group" value="txGroupFaux" />
+        <property name="PaintCost" value="2"/>
+      </paint>
+      <paint id="150" name="txName_Texture150">
+        <property name="TextureId" value="520"/>
+        <property name="Group" value="txGroupFaux" />
+        <property name="PaintCost" value="2"/>
+      </paint>
+      <paint id="151" name="txName_Texture151">
+        <property name="TextureId" value="521"/>
+        <property name="Group" value="txGroupFaux" />
+        <property name="PaintCost" value="2"/>
+      </paint>
+      <paint id="152" name="txName_Texture152">
+        <property name="TextureId" value="523"/>
+        <property name="Group" value="txGroupFaux" />
+        <property name="PaintCost" value="2"/>
+      </paint>
+      <paint id="153" name="txName_Texture153">
+        <property name="TextureId" value="525"/>
+        <property name="Group" value="txGroupFaux" />
+        <property name="PaintCost" value="2"/>
+      </paint>
+      <paint id="154" name="txName_Texture154">
+        <property name="TextureId" value="531"/>
+        <property name="Group" value="txGroupFaux" />
+        <property name="PaintCost" value="2"/>
+      </paint>
+      <paint id="155" name="txName_Texture155">
+        <property name="TextureId" value="532"/>
+        <property name="Group" value="txGroupFaux" />
+        <property name="PaintCost" value="2"/>
+      </paint>
+      <paint id="156" name="txName_Texture156">
+        <property name="TextureId" value="534"/>
+        <property name="Group" value="txGroupFaux" />
+        <property name="PaintCost" value="2"/>
+      </paint>
+      <paint id="157" name="txName_Texture157">
+        <property name="TextureId" value="535"/>
+        <property name="Group" value="txGroupFaux" />
+        <property name="PaintCost" value="2"/>
+      </paint>
+      <paint id="158" name="txName_Texture158">
+        <property name="TextureId" value="536"/>
+        <property name="Group" value="txGroupFaux" />
+        <property name="PaintCost" value="2"/>
+      </paint>
+      <paint id="159" name="txName_Texture159">
+        <property name="TextureId" value="537"/>
+        <property name="Group" value="txGroupFaux" />
+        <property name="PaintCost" value="2"/>
+      </paint>
+      <paint id="160" name="txName_Texture160">
+        <property name="TextureId" value="538"/>
+        <property name="Group" value="txGroupFaux" />
+        <property name="PaintCost" value="2"/>
+      </paint>
+      <paint id="161" name="txName_Texture161">
+        <property name="TextureId" value="539"/>
+        <property name="Group" value="txGroupFaux" />
+        <property name="PaintCost" value="2"/>
+      </paint>
+      <paint id="162" name="txName_Texture162">
+        <property name="TextureId" value="540"/>
+        <property name="Group" value="txGroupFaux" />
+        <property name="PaintCost" value="2"/>
+      </paint>
+      <paint id="163" name="txName_Texture163">
+        <property name="TextureId" value="541"/>
+        <property name="Group" value="txGroupFaux" />
+        <property name="PaintCost" value="2"/>
+      </paint>
+      <paint id="164" name="txName_Texture164">
+        <property name="TextureId" value="542"/>
+        <property name="Group" value="txGroupFaux" />
+        <property name="PaintCost" value="2"/>
+      </paint>
+      <paint id="165" name="txName_Texture165">
+        <property name="TextureId" value="543"/>
+        <property name="Group" value="txGroupFaux" />
+        <property name="PaintCost" value="2"/>
+      </paint>
+      <paint id="166" name="txName_Texture166">
+        <property name="TextureId" value="544"/>
+        <property name="Group" value="txGroupFaux" />
+        <property name="PaintCost" value="2"/>
+      </paint>
+      <paint id="167" name="txName_Texture167">
+        <property name="TextureId" value="545"/>
+        <property name="Group" value="txGroupFaux" />
+        <property name="PaintCost" value="2"/>
+      </paint>
+      <paint id="168" name="txName_Texture168">
+        <property name="TextureId" value="546"/>
+        <property name="Group" value="txGroupFaux" />
+        <property name="PaintCost" value="2"/>
+      </paint>
+      <paint id="169" name="txName_Texture169">
+        <property name="TextureId" value="547"/>
+        <property name="Group" value="txGroupFaux" />
+        <property name="PaintCost" value="2"/>
+      </paint>
+      <paint id="170" name="txName_Texture170">
+        <property name="TextureId" value="548"/>
+        <property name="Group" value="txGroupFaux" />
+        <property name="PaintCost" value="2"/>
+      </paint>
+      <paint id="171" name="txName_Texture171">
+        <property name="TextureId" value="549"/>
+        <property name="Group" value="txGroupFaux" />
+        <property name="PaintCost" value="2"/>
+      </paint>
+      <paint id="172" name="txName_Texture172">
+        <property name="TextureId" value="552"/>
+        <property name="Group" value="txGroupFaux" />
+        <property name="PaintCost" value="2"/>
+      </paint>
+      <paint id="173" name="txName_Texture173">
+        <property name="TextureId" value="553"/>
+        <property name="Group" value="txGroupFaux" />
+        <property name="PaintCost" value="2"/>
+      </paint>
+      <paint id="174" name="txName_Texture174">
+        <property name="TextureId" value="554"/>
+        <property name="Group" value="txGroupFaux" />
+        <property name="PaintCost" value="2"/>
+      </paint>
+      <paint id="175" name="txName_Texture175">
+        <property name="TextureId" value="555"/>
+        <property name="Group" value="txGroupFaux" />
+        <property name="PaintCost" value="2"/>
+      </paint>
+      <paint id="176" name="txName_Texture176">
+        <property name="TextureId" value="571"/>
+        <property name="Group" value="txGroupFaux" />
+        <property name="PaintCost" value="2"/>
+      </paint>
+      <paint id="177" name="txName_Texture177">
+        <property name="TextureId" value="572"/>
+        <property name="Group" value="txGroupFaux" />
+        <property name="PaintCost" value="2"/>
+      </paint>
+      <paint id="178" name="txName_Texture178">
+        <property name="TextureId" value="573"/>
+        <property name="Group" value="txGroupFaux" />
+        <property name="PaintCost" value="2"/>
+      </paint>
+      <paint id="179" name="txName_Texture179">
+        <property name="TextureId" value="574"/>
+        <property name="Group" value="txGroupFaux" />
+        <property name="PaintCost" value="2"/>
+      </paint>
+      <paint id="180" name="txName_Texture180">
+        <property name="TextureId" value="575"/>
+        <property name="Group" value="txGroupFaux" />
+        <property name="PaintCost" value="2"/>
+      </paint>
+      <paint id="181" name="txName_Texture181">
+        <property name="TextureId" value="576"/>
+        <property name="Group" value="txGroupFaux" />
+        <property name="PaintCost" value="2"/>
+      </paint>
+      <paint id="182" name="txName_Texture182">
+        <property name="TextureId" value="577"/>
+        <property name="Group" value="txGroupFaux" />
+        <property name="PaintCost" value="2"/>
+      </paint>
+      <paint id="183" name="txName_Texture183">
+        <property name="TextureId" value="578"/>
+        <property name="Group" value="txGroupFaux" />
+        <property name="PaintCost" value="2"/>
+      </paint>
+      <paint id="184" name="txName_Texture184">
+        <property name="TextureId" value="580"/>
+        <property name="Group" value="txGroupFaux" />
+        <property name="PaintCost" value="2"/>
+      </paint>
+    </append>
+  </config>
+</configs>

@@ -1,0 +1,19 @@
+<configs>
+  <config name="gamestages">
+    <set xpath="/gamestages/config/@startingWeight">2</set>
+    <set xpath="/gamestages/config/@scavengerGameDifficultyBonus">0</set>
+    <set xpath="/gamestages/config/@adventurerGameDifficultyBonus">0.1</set>
+    <set xpath="/gamestages/config/@nomadGameDifficultyBonus">0.2</set>
+    <set xpath="/gamestages/config/@warriorGameDifficultyBonus">0.6</set>
+    <set xpath="/gamestages/config/@survivalistGameDifficultyBonus">1.0</set>
+    <set xpath="/gamestages/config/@insaneGameDifficultyBonus">1.5</set>
+    <set xpath="/gamestages/config/@daysAliveDifficultyBonus">0.1</set>
+    <set xpath="/gamestages/config/@daysAliveChangeWhenKilled">2</set>
+    <set xpath="/gamestages/config/@diminishingReturns">0.2</set>
+    <append xpath="/*">
+      <difficultyModifier name="easy" amount="150"/>
+      <difficultyModifier name="medium" amount="300"/>
+      <difficultyModifier name="hard" amount="500"/>
+    </append>
+  </config>
+</configs>

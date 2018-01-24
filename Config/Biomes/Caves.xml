@@ -1,0 +1,32 @@
+<configs>
+  <config name="biomes">
+    <append xpath="/worldgeneration/biomes">
+      <biome name="caveFloor" biomemapcolor="#a1a1a1" >
+        <decorations>
+          <decoration type="prefab" name="rg_cave_spawn_01" prob="0.005" rotatemax="7"/>
+          <decoration type="block" blockname="mushroom01" prob="0.02" rotatemax="7"/>
+          <decoration type="block" blockname="mushroom02" prob="0.02" rotatemax="7"/>
+          <decoration type="block" blockname="stalagmite01" prob="0.02" rotatemax="7"/>
+          <decoration type="block" blockname="stalagmite02" prob="0.02" rotatemax="7"/>
+          <decoration type="block" blockname="stalagmite03" prob="0.02" rotatemax="7"/>
+          <decoration type="block" blockname="stalagmite04" prob="0.02" rotatemax="7"/>
+          <decoration type="block" blockname="rockResource" prob=".0005" rotatemax="3"/>
+          <decoration type="block" blockname="rockResource02" prob=".0005" rotatemax="3"/>
+          <decoration type="block" blockname="rock01" prob=".004" rotatemax="3"/>
+          <decoration type="block" blockname="campfire" prob=".00004" rotatemax="3"/>
+          <decoration type="block" blockname="cntApacheArtifactChest" prob=".00001" rotatemax="3"/>
+        </decorations>
+      </biome>
+      <biome name="caveCeiling" biomemapcolor="#a2a2a2" >
+        <decorations>
+          <decoration type="block" blockname="cobweb" prob="0.12" rotatemax="7"/>
+          <decoration type="block" blockname="hangingMoss" prob="0.12" rotatemax="7"/>
+          <decoration type="block" blockname="stalactite01" prob="0.02" rotatemax="7"/>
+          <decoration type="block" blockname="stalactite02" prob="0.02" rotatemax="7"/>
+          <decoration type="block" blockname="stalactite03" prob="0.02" rotatemax="7"/>
+          <decoration type="block" blockname="stalactite04" prob="0.02" rotatemax="7"/>
+        </decorations>
+      </biome>
+    </append>
+  </config>
+</configs>

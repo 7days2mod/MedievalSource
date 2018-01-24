@@ -1,0 +1,201 @@
+<configs>
+  <config name="blocks">
+    <append xpath="/blocks">
+      <!-- Nano Terrain -->
+      <block id="1865" name="nano_silverOre">
+        <property name="Extends" value="silverOre"/>
+        <property name="Class" value="LiquidMoving"/>
+        <property name="LiquidStatic" value="silverOre"/>
+        <property name="CustomIcon" value="silverOre"/>
+      </block>
+      <block id="1866" name="nano_flagstoneBlock">
+        <property name="Extends" value="flagstoneBlock"/>
+        <property name="Class" value="LiquidMoving"/>
+        <property name="LiquidStatic" value="flagstoneBlock"/>
+        <property name="CustomIcon" value="flagstoneBlock"/>
+      </block>
+      <block id="1867" name="nano_cobblestoneBlock">
+        <property name="Extends" value="cobblestoneBlock"/>
+        <property name="Class" value="LiquidMoving"/>
+        <property name="LiquidStatic" value="cobblestoneBlock"/>
+        <property name="CustomIcon" value="cobblestoneBlock"/>
+      </block>
+      <block id="1869" name="nano_stone">
+        <property name="Extends" value="stone"/>
+        <property name="Class" value="LiquidMoving"/>
+        <property name="LiquidStatic" value="stone"/>
+        <property name="CustomIcon" value="stone"/>
+      </block>
+      <block id="1870" name="nano_grass">
+        <property name="Extends" value="grass" param1="PlaceAltBlockValue"/>
+        <property name="Class" value="LiquidMoving"/>
+        <property name="LiquidStatic" value="grass"/>
+        <property name="CustomIcon" value="grass"/>
+      </block>
+      <block id="1871" name="nano_dirt">
+        <property name="Extends" value="dirt"/>
+        <property name="Class" value="LiquidMoving"/>
+        <property name="LiquidStatic" value="dirt"/>
+        <property name="CustomIcon" value="dirt"/>
+      </block>
+      <block id="1872" name="nano_plainsGround">
+        <property name="Extends" value="plainsGround" param1="PlaceAltBlockValue"/>
+        <property name="Class" value="LiquidMoving"/>
+        <property name="LiquidStatic" value="plainsGround"/>
+        <property name="CustomIcon" value="plainsGround"/>
+      </block>
+      <block id="1873" name="nano_radiated">
+        <property name="Extends" value="radiated"/>
+        <property name="Class" value="LiquidMoving"/>
+        <property name="LiquidStatic" value="radiated"/>
+        <property name="CustomIcon" value="radiated"/>
+        <property name="Material" value="dirt"/>
+      </block>
+      <block id="1874" name="nano_potassiumNitrate">
+        <property name="Extends" value="potassiumNitrate"/>
+        <property name="Class" value="LiquidMoving"/>
+        <property name="LiquidStatic" value="potassiumNitrate"/>
+        <property name="CustomIcon" value="potassiumNitrate"/>
+        <property name="Material" value="coal"/>
+      </block>
+      <block id="1875" name="nano_ironOre">
+        <property name="Extends" value="ironOre"/>
+        <property name="Class" value="LiquidMoving"/>
+        <property name="LiquidStatic" value="ironOre"/>
+        <property name="CustomIcon" value="ironOre"/>
+      </block>
+      <block id="1876" name="nano_sand">
+        <property name="Extends" value="sand"/>
+        <property name="Class" value="LiquidMoving"/>
+        <property name="LiquidStatic" value="sand"/>
+        <property name="CustomIcon" value="sand"/>
+      </block>
+      <block id="1877" name="nano_snow">
+        <property name="Extends" value="snow"/>
+        <property name="Class" value="LiquidMoving"/>
+        <property name="LiquidStatic" value="snow"/>
+        <property name="CustomIcon" value="snow"/>
+      </block>
+      <block id="1878" name="nano_clay">
+        <property name="Extends" value="clay"/>
+        <property name="Class" value="LiquidMoving"/>
+        <property name="LiquidStatic" value="clay"/>
+        <property name="CustomIcon" value="clay"/>
+      </block>
+      <block id="1879" name="nano_leadOre">
+        <property name="Extends" value="leadOre"/>
+        <property name="Class" value="LiquidMoving"/>
+        <property name="LiquidStatic" value="leadOre"/>
+        <property name="CustomIcon" value="leadOre"/>
+      </block>
+      <block id="1880" name="nano_bedrock">
+        <property name="Extends" value="bedrock"/>
+        <property name="Class" value="LiquidMoving"/>
+        <property name="LiquidStatic" value="bedrock"/>
+        <property name="CustomIcon" value="bedrock"/>
+      </block>
+      <block id="1881" name="nano_sandStone">
+        <property name="Extends" value="sandStone"/>
+        <property name="Class" value="LiquidMoving"/>
+        <property name="LiquidStatic" value="sandStone"/>
+        <property name="CustomIcon" value="sandStone"/>
+      </block>
+      <block id="1882" name="nano_desertGround">
+        <property name="Extends" value="desertGround"/>
+        <property name="Class" value="LiquidMoving"/>
+        <property name="LiquidStatic" value="desertGround"/>
+        <property name="CustomIcon" value="desertGround"/>
+      </block>
+      <block id="1884" name="nano_gravel">
+        <property name="Extends" value="gravel"/>
+        <property name="Class" value="LiquidMoving"/>
+        <property name="LiquidStatic" value="gravel"/>
+        <property name="CustomIcon" value="gravel"/>
+      </block>
+      <block id="1885" name="nano_ice">
+        <property name="Extends" value="ice"/>
+        <property name="Class" value="LiquidMoving"/>
+        <property name="LiquidStatic" value="ice"/>
+        <property name="CustomIcon" value="ice"/>
+      </block>
+      <block id="1886" name="nano_fertileDirt">
+        <property name="Extends" value="fertileDirt"/>
+        <property name="Class" value="LiquidMoving"/>
+        <property name="LiquidStatic" value="fertileDirt"/>
+        <property name="CustomIcon" value="fertileDirt"/>
+      </block>
+      <block id="1887" name="nano_fertileGrass">
+        <property name="Extends" value="fertileGrass" param1="PlaceAltBlockValue"/>
+        <property name="Class" value="LiquidMoving"/>
+        <property name="LiquidStatic" value="fertileGrass"/>
+        <property name="CustomIcon" value="grass"/>
+      </block>
+      <block id="1888" name="nano_fertileFarmland">
+        <property name="Extends" value="fertileFarmland"/>
+        <property name="Class" value="LiquidMoving"/>
+        <property name="LiquidStatic" value="fertileFarmland"/>
+        <property name="CustomIcon" value="fertileFarmland"/>
+      </block>
+      <block id="1889" name="nano_burntForestGround">
+        <property name="Extends" value="burntForestGround" param1="PlaceAltBlockValue"/>
+        <property name="Class" value="LiquidMoving"/>
+        <property name="LiquidStatic" value="burntForestGround"/>
+        <property name="CustomIcon" value="burntForestGround"/>
+      </block>
+      <block id="1890" name="nano_forestGround">
+        <property name="Extends" value="forestGround" param1="PlaceAltBlockValue"/>
+        <property name="Class" value="LiquidMoving"/>
+        <property name="LiquidStatic" value="forestGround"/>
+        <property name="CustomIcon" value="forestGround"/>
+      </block>
+      <block id="1891" name="nano_destroyedStone">
+        <property name="Extends" value="destroyedStone"/>
+        <property name="Class" value="LiquidMoving"/>
+        <property name="LiquidStatic" value="destroyedStone"/>
+        <property name="CustomIcon" value="destroyedStone"/>
+      </block>
+      <block id="1892" name="nano_coalOre">
+        <property name="Extends" value="coalOre"/>
+        <property name="Class" value="LiquidMoving"/>
+        <property name="LiquidStatic" value="coalOre"/>
+        <property name="CustomIcon" value="coalOre"/>
+      </block>
+      <block id="1893" name="nano_terrainFiller">
+        <property name="Extends" value="terrainFiller"/>
+        <property name="Class" value="LiquidMoving"/>
+        <property name="LiquidStatic" value="terrainFiller"/>
+        <property name="CustomIcon" value="terrainFiller"/>
+      </block>
+      <block id="1894" name="nano_sod">
+        <property name="Extends" value="sod"/>
+        <property name="Class" value="LiquidMoving"/>
+        <property name="LiquidStatic" value="sod"/>
+        <property name="CustomIcon" value="sod"/>
+      </block>
+      <block id="1895" name="nano_hardSod">
+        <property name="Extends" value="hardSod"/>
+        <property name="Class" value="LiquidMoving"/>
+        <property name="LiquidStatic" value="hardSod"/>
+        <property name="CustomIcon" value="sod"/>
+      </block>
+      <block id="1896" name="nano_woodDebris">
+        <property name="Extends" value="woodDebris"/>
+        <property name="Class" value="LiquidMoving"/>
+        <property name="LiquidStatic" value="woodDebris"/>
+        <property name="CustomIcon" value="woodDebris"/>
+      </block>
+      <block id="1897" name="nano_oilDeposit">
+        <property name="Extends" value="oilDeposit"/>
+        <property name="Class" value="LiquidMoving"/>
+        <property name="LiquidStatic" value="oilDeposit"/>
+        <property name="CustomIcon" value="oilDeposit"/>
+      </block>
+      <block id="1898" name="nano_fertilizedFarmland">
+        <property name="Extends" value="fertilizedFarmland"/>
+        <property name="Class" value="LiquidMoving"/>
+        <property name="LiquidStatic" value="fertilizedFarmland"/>
+        <property name="CustomIcon" value="fertileFarmland"/>
+      </block>
+    </append>
+  </config>
+</configs>

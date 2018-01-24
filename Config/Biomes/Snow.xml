@@ -1,0 +1,90 @@
+<configs>
+  <config name="biomes">
+    <append xpath="/worldgeneration/biomes">
+      <!-- SNOW (found at high elevation, rich in gems and iron in the subbiomes) -->
+      <!-- Frozen wastelands with deep snow drifts and hidden camps. Should be limited to high altitude only (106+). Bury prefabs in the snow layers (-2) so they are on solid dirt. -->
+      <biome name="snow" biomemapcolor="#FFFFFF">
+        <weather>
+          <Temperature min="-80" max="-70" prob="1"/>
+          <Fog min="0" max="0" prob=".3"/>
+          <Fog min="100" max="100" prob=".7"/>
+          <CloudThickness min="0" max="100" prob=".25"/>
+          <CloudThickness min="50" max="100" prob=".5"/>
+          <CloudThickness min="95" max="100" prob=".75"/>
+          <Precipitation min="0" max="0" prob=".0"/>
+          <Precipitation min="50" max="100" prob=".75"/>
+          <Wind min="20" max="60" prob="0.9"/>
+          <Wind min="60" max="120" prob="0.2"/>
+          <ParticleEffect prefab="ParticleEffects/p_snowstorm1" ChunkMargin="7"/>
+        </weather>
+        <replacements>
+          <replace source="treeTallGrassDiagonal" target="treeSnowyGrassDiagonal" />
+        </replacements>
+        <layers>
+          <layer filluptorg="60" blockname="water" />
+          <layer depth="2" blockname="snow" />
+          <layer depth="3" blockname="dirt" />
+          <layer depth="20" blockname="stone" >
+            <resource blockname="ironOre" cluster="1" prob="0.125" rwgGenerationType="all" />
+            <resource blockname="gravelPlusIron" cluster="1" prob="0.800" rwgGenerationType="all" />
+          </layer>
+          <layer depth="1" blockname="stone" >
+            <resource blockname="gravel" cluster="1" prob="0.800" rwgGenerationType="all" />
+          </layer>
+          <layer depth="*" blockname="bedrock" />
+        </layers>
+        <decorations>
+          <!-- lootable -->
+          <decoration type="block" blockname="cntBirdnest" prob="0.002" />
+          <!-- use a prefab with the stump yoffset at -2 -->
+          <decoration type="block" blockname="cntTreeStump" prob="0.0002" />
+
+          <!-- random -->
+          <!-- todo: change to an icicle model -->
+          <decoration type="block" blockname="trapSpikesNew" prob="0.00003"/>
+
+          <!-- harvest -->
+          <decoration type="block" blockname="snowberry3Harvest" prob=".0001" />
+
+          <!-- rocks -->
+          <!-- use a new prefab (snow_rock_form01) with the yoffset at -2 -->
+          <decoration type="prefab" name="rock_form01" prob=".0004" rotatemax="7"/>
+          <!-- use a new prefab (snow_rock_form02) with the yoffset at -2 -->
+          <decoration type="prefab" name="rock_form02" prob=".0004" rotatemax="7"/>
+          <decoration type="block" blockname="rock01" prob=".0005"/>
+          <decoration type="block" blockname="rock02" prob=".0005"/>
+          <decoration type="block" blockname="rock03" prob=".0005"/>
+          <decoration type="block" blockname="rock04" prob=".0005"/>
+          <decoration type="block" blockname="rock05" prob=".0005"/>
+          <decoration type="block" blockname="rock06" prob=".0005"/>
+          <decoration type="block" blockname="rock07" prob=".0005"/>
+          <decoration type="block" blockname="rock08" prob=".0005"/>
+          <decoration type="block" blockname="rock09" prob=".0005"/>
+          <decoration type="block" blockname="rock10" prob=".0005"/>
+          <decoration type="block" blockname="rock11" prob=".0005"/>
+          <decoration type="block" blockname="rock12" prob=".0005"/>
+          <decoration type="block" blockname="rockResourceBroke1" prob=".00005" rotatemax="3"/>
+          <decoration type="block" blockname="rockResourceBroke2" prob=".00005" rotatemax="3"/>
+          <decoration type="block" blockname="rockResource02Broke1" prob=".00005" rotatemax="3"/>
+          <decoration type="block" blockname="rockResource02Broke2" prob=".00005" rotatemax="3"/>
+          <decoration type="block" blockname="rockResource02Broke3" prob=".00005" rotatemax="3"/>
+
+          <!-- wood/trees -->
+          <decoration type="block" blockname="treeDeadTree01" prob="0.0001" rotatemax="7"/>
+          <decoration type="block" blockname="treeDeadTree02" prob="0.0001" rotatemax="7"/>
+          <decoration type="block" blockname="treeWinterEverGreen" prob="0.0001" rotatemax="7"/>
+          <decoration type="block" blockname="treeWinterPine01" prob="0.0001" rotatemax="7"/>
+          <decoration type="block" blockname="treeWinterPine02" prob="0.0001" rotatemax="7"/>
+          <decoration type="block" blockname="treeWinterPine03" prob="0.0001" rotatemax="7"/>
+
+          <!-- grass/shrub -->
+          <decoration type="block" blockname="treeSnowyDeadBush" prob="0.0003"/>
+          <decoration type="block" blockname="treeDeadShrub" prob="0.0005" />
+          <decoration type="block" blockname="treeDeadPineLeaf" prob="0.0002" rotatemax="7"/>
+          <decoration type="block" blockname="treeSnowyGrassDiagonal" prob="0.05" rotatemax="7"/>
+        </decorations>
+        <terrain class="Mountains" />
+      </biome>
+    </append>
+  </config>
+</configs>

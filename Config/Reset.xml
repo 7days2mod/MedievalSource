@@ -1,0 +1,145 @@
+<configs>
+	<config name="archetypes">
+    <set xpath="/*"></set>
+	</config>
+  <config name="biomes">
+    <set xpath="/*"></set>
+  </config>
+  <config name="blocks">
+    <set xpath="/*"></set>
+  </config>
+  <config name="buffs">
+    <set xpath="/*"></set>
+  </config>
+  <config name="entityclasses">
+    <set xpath="/*"></set>
+  </config>
+  <config name="entitygroups">
+    <set xpath="/*"></set>
+  </config>
+  <config name="gamestages">
+    <remove xpath="/gamestages/spawner" />
+    <remove xpath="/gamestages/spawner" />
+    <remove xpath="/gamestages/spawner" />
+    <remove xpath="/gamestages/spawner" />
+    <remove xpath="/gamestages/spawner" />
+    <remove xpath="/gamestages/spawner" />
+    <remove xpath="/gamestages/spawner" />
+    <remove xpath="/gamestages/spawner" />
+    <remove xpath="/gamestages/spawner" />
+    <remove xpath="/gamestages/spawner" />
+    <remove xpath="/gamestages/spawner" />
+    <remove xpath="/gamestages/spawner" />
+    <remove xpath="/gamestages/spawner" />
+    <remove xpath="/gamestages/spawner" />
+    <remove xpath="/gamestages/spawner" />
+    <remove xpath="/gamestages/group" />
+    <remove xpath="/gamestages/group" />
+    <remove xpath="/gamestages/group" />
+    <remove xpath="/gamestages/group" />
+    <remove xpath="/gamestages/group" />
+    <remove xpath="/gamestages/group" />
+    <remove xpath="/gamestages/group" />
+    <remove xpath="/gamestages/group" />
+    <remove xpath="/gamestages/group" />
+    <remove xpath="/gamestages/group" />
+    <remove xpath="/gamestages/group" />
+    <remove xpath="/gamestages/group" />
+    <remove xpath="/gamestages/group" />
+    <remove xpath="/gamestages/group" />
+    <remove xpath="/gamestages/group" />
+    <remove xpath="/gamestages/group" />
+    <remove xpath="/gamestages/group" />
+    <remove xpath="/gamestages/group" />
+    <remove xpath="/gamestages/group" />
+    <remove xpath="/gamestages/group" />
+    <remove xpath="/gamestages/group" />
+    <remove xpath="/gamestages/group" />
+    <remove xpath="/gamestages/group" />
+    <remove xpath="/gamestages/group" />
+    <remove xpath="/gamestages/group" />
+    <remove xpath="/gamestages/group" />
+    <remove xpath="/gamestages/group" />
+    <remove xpath="/gamestages/group" />
+    <remove xpath="/gamestages/group" />
+    <remove xpath="/gamestages/group" />
+    <remove xpath="/gamestages/group" />
+    <remove xpath="/gamestages/group" />
+    <remove xpath="/gamestages/group" />
+    <remove xpath="/gamestages/group" />
+    <remove xpath="/gamestages/group" />
+    <remove xpath="/gamestages/group" />
+    <remove xpath="/gamestages/group" />
+    <remove xpath="/gamestages/group" />
+    <remove xpath="/gamestages/group" />
+    <remove xpath="/gamestages/group" />
+    <remove xpath="/gamestages/difficultyModifier" />
+    <remove xpath="/gamestages/difficultyModifier" />
+    <remove xpath="/gamestages/difficultyModifier" />
+  </config>
+  <config name="items">
+    <set xpath="/*"></set>
+  </config>
+  <config name="loot">
+    <set xpath="/*"></set>
+  </config>
+  <config name="materials">
+    <set xpath="/*"></set>
+  </config>
+  <config name="npc">
+    <set xpath="/*"></set>
+  </config>
+  <config name="painting">
+    <set xpath="/*"></set>
+  </config>
+  <config name="progression">
+    <set xpath="/*"></set>
+  </config>
+  <config name="quests">
+    <set xpath="/*"></set>
+  </config>
+  <config name="recipes">
+    <set xpath="/*"></set>
+  </config>
+  <config name="rwgmixer">
+    <set xpath="/*"></set>
+  </config>
+  <config name="spawning">
+    <set xpath="/*"></set>
+  </config>
+  <config name="traders">
+    <set xpath="/*"></set>
+  </config>
+  <config name="xui">
+    <set xpath="/*"></set>
+  </config>
+  <config name="XUi/controls">
+    <set xpath="/*"></set>
+  </config>
+  <config name="XUi/styles">
+    <set xpath="/*"></set>
+  </config>
+  <config name="XUi/windows">
+    <set xpath="/*"></set>
+  </config>
+  <config name="XUi_Menu/controls">
+    <set xpath="/*"></set>
+  </config>
+  <config name="XUi_Menu/styles">
+    <set xpath="/*"></set>
+  </config>
+  <config name="XUi_Menu/windows">
+    <set xpath="/*"></set>
+  </config>
+  <config name="XUi_Menu/xui">
+    <set xpath="/*"></set>
+  </config>
+
+  <!--<set xpath="/misc"></set>-->
+  <!--<set xpath="/physicsbodies"></set>-->
+  <!--<set xpath="/sounds"></set>-->
+  <!--<set xpath="/utilityai"></set>-->
+  <!--<set xpath="/vehicles"></set>-->
+  <!--<set xpath="/weathersurvival"></set>-->
+
+</configs>

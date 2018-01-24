@@ -1,0 +1,73 @@
+<mod>
+  <info>
+    <author>StompyNZ</author>
+    <name>MedievalCore</name>
+    <description>Core features for the medieval mod</description>
+    <mod_version>1.0</mod_version>
+    <game_version>16.4</game_version>
+    <launcher_version>0.0.0</launcher_version>
+  </info>
+  <config_mods>
+    <import file="Config\Reset.xml" />
+    
+    <import file="Config\Archetypes\Base.xml" />
+    <import file="Config\Archetypes\Traders.xml" />
+    <!--<import file="Config\Archetypes\Soldiers.xml" />-->
+    <!--<import file="Config\Archetypes\Pesants.xml" />-->
+    <!--<import file="Config\Archetypes\NPCs.xml" />-->
+    <!--<import file="Config\Archetypes\Orcs.xml" />-->
+    <!--<import file="Config\Archetypes\Goblins.xml" />-->
+    <!--<import file="Config\Archetypes\Trolls.xml" />-->
+    <!--<import file="Config\Archetypes\Zombies.xml" />-->
+    <!--<import file="Config\Archetypes\Other.xml" />-->
+
+    <import file="Config\Biomes\Base.xml" />
+    <import file="Config\Biomes\Snow.xml" />
+    <import file="Config\Biomes\Forest.xml" />
+    <import file="Config\Biomes\Orclands.xml" />
+    <import file="Config\Biomes\Grasslands.xml" />
+    <import file="Config\Biomes\SpookyForest.xml" />
+    <import file="Config\Biomes\Water.xml" />
+    <import file="Config\Biomes\CursedLands.xml" />
+    <import file="Config\Biomes\BlightedLands.xml" />
+    <import file="Config\Biomes\Swamplands.xml" />
+    <import file="Config\Biomes\ScorchedEarth.xml" />
+    <import file="Config\Biomes\CrystalForest.xml" />
+    <import file="Config\Biomes\BlastedLands.xml" />
+    <import file="Config\Biomes\Caves.xml" />
+
+    <import file="Config\Blocks\Terrain.xml" />
+    <import file="Config\Blocks\Masters.xml" />
+    <import file="Config\Blocks\BlockShapeNew.xml" />
+    <import file="Config\Blocks\BlockShapeOther.xml" />
+    <import file="Config\Blocks\Models.xml" />
+    <import file="Config\Blocks\Terrain_Nano.xml" />
+
+    <import file="Config\Buffs\Base.xml" />
+    
+    <import file="Config\Entityclasses\Base.xml" />
+
+    <import file="Config\Entitygroups\Base.xml" />
+    
+    <import file="Config\Gamestages\Base.xml" />
+    
+    <import file="Config\Items\Base.xml" />
+    <import file="Config\Loot\Base.xml" />
+    <import file="Config\Npc\Base.xml" />
+    <import file="Config\Painting\Base.xml" />
+    <import file="Config\Progression\Base.xml" />
+    <import file="Config\Quests\Base.xml" />
+    <import file="Config\Recipes\Base.xml" />
+    <import file="Config\RWGMixer\Base.xml" />
+    <import file="Config\Spawning\Base.xml" />
+    <import file="Config\Traders\Base.xml" />
+    <import file="Config\Xui\Base.xml" />
+    <import file="Config\Xui\Controls.xml" />
+    <import file="Config\Xui\Styles.xml" />
+    <import file="Config\Xui\Windows.xml" />
+    <import file="Config\Xui_Menu\Base.xml" />
+    <import file="Config\Xui_Menu\Controls.xml" />
+    <import file="Config\Xui_Menu\Styles.xml" />
+    <import file="Config\Xui_Menu\Windows.xml" />
+  </config_mods>
+</mod>
